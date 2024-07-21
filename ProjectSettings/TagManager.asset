@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Character
   layers:
   - Default
   - TransparentFX
@@ -12,7 +13,7 @@ TagManager:
   - Water
   - UI
   - 
-  - 
+  - SolidObject
   - 
   - 
   - 
@@ -40,4 +41,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1148569415
+    locked: 0
+  - name: Expansions
+    uniqueID: 2286195773
+    locked: 0
+  - name: Decorations
+    uniqueID: 3269119037
+    locked: 0
+  - name: Collisions
+    uniqueID: 2607079135
+    locked: 0
+  - name: Characters
+    uniqueID: 1175755347
     locked: 0
