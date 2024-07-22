@@ -48,11 +48,11 @@ TagManager:
   - name: Expansions
     uniqueID: 2286195773
     locked: 0
-  - name: Decorations
-    uniqueID: 3269119037
-    locked: 0
   - name: Collisions
     uniqueID: 2607079135
+    locked: 0
+  - name: Decorations
+    uniqueID: 3269119037
     locked: 0
   - name: Characters
     uniqueID: 1175755347
