@@ -4,17 +4,23 @@ using UnityEngine;
 
 public class ClientBehavior : MonoBehaviour
 {
-    public vector[7] clients;
+    public GameObject[] clients;
+    public GameObject[] startButtons;
+    private float minTime = 5.0f;
+    private float maxTime = 15.0f;
 
-    // Start is called before the first frame update
     void Start()
     {
-        
+        StartCoroutine(RandomSpawn(minTime, maxTime));
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    IEnumerator RandomSpawn(float _min, float _max){
+        while (true)
+        {
+            int _index = Random.Range(0, clients.Length);
+            yield return new WaitForSeconds(Random.Range(_min, _max));
+            clients[_index].SetActive(true);
+            startButtons[_index].SetActive(true);
+        }
     }
 }
