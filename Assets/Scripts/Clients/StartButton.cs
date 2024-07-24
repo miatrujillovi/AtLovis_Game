@@ -28,11 +28,14 @@ public class StartButton : MonoBehaviour
                 if (button != activeButton)
                 {
                     Button btn = button.GetComponent<Button>();
-                    btn.enabled = false;
+                    if (btn != null)
+                    {
+                        btn.enabled = false;
+                    }
                 }
             }
             activeButtonImage.sprite = newFood; // Cambiamos Sprite a la Orden Deseada
-            activeButtonButton.enabled = false; // Deshabilita Botón
+            activeButtonButton.enabled = true; // Habilita Boton
             kitchenReadyButton.interactable = true; // Habilita Botón de la Cocina
             kitchenReadyText.enabled = true; // Habilita Texto de la Cocina
             kitchenReadyText.text = "Bring Order"; // Activa Texto de la Cocina

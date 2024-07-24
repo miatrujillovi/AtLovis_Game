@@ -8,6 +8,7 @@ public class GlobalVariableManager : MonoBehaviour
     public static GameObject table;
     public static float Time;
     public static bool activeOrder;
+    //public static int inUseButton;
 
     // Start is called before the first frame update
     void Start()

@@ -16,13 +16,16 @@ public class KitchenBtn : MonoBehaviour
     IEnumerator CookingTime(float _time)
     {
         Text kitchenBtnText = kitchenBtn.GetComponentInChildren<Text>();
+        Button kitchenReadyButton = kitchenBtn.GetComponent<Button>();
         while (true)
         {
+            kitchenBtn.SetActive(true);
             kitchenBtnText.text = "Cooking..."; // Activa Texto de la Cocina
             yield return new WaitForSeconds(_time);
 
             foodOnCounter[GlobalVariableManager.currentFood].SetActive(true); //Activa el Boton de la Comida Correspondiente
             kitchenBtnText.enabled = false;
+            kitchenBtn.SetActive(false);
         }
     }
 }
