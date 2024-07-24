@@ -1,23 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class KitchenBtn : MonoBehaviour
 {
-    public int[] foodOnCounter;
-    private int Order;
-    private int Table;
-    public float Time;
+    public GameObject[] foodOnCounter;
+    public GameObject kitchenBtn;
 
     public void RecibeOrder()
     {
-        Order = GlobalVariableManager.currentFood;
-        StartCoroutine(CookingTime(Time));
-
+        StartCoroutine(CookingTime(GlobalVariableManager.Time));
     }
 
     IEnumerator CookingTime(float _time)
     {
-        yield return new WaitForSeconds(_time);
+        Text kitchenBtnText = kitchenBtn.GetComponentInChildren<Text>();
+        while (true)
+        {
+            kitchenBtnText.text = "Cooking..."; // Activa Texto de la Cocina
+            yield return new WaitForSeconds(_time);
+
+            foodOnCounter[GlobalVariableManager.currentFood].SetActive(true); //Activa el Boton de la Comida Correspondiente
+            kitchenBtnText.enabled = false;
+        }
     }
 }

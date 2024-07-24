@@ -7,51 +7,60 @@ public class StartButton : MonoBehaviour
 {
     //Variables Publicas
     public int Food;
-    public int Table;
     public GameObject[] buttons;
+    public GameObject[] disappearClients;
+    public int tableIndex;
     public GameObject activeButton;
     public GameObject kitchenReady;
     public Sprite newFood;
 
     public void TakeOrder()
     {
-        if (activeButton != null && kitchenReady != null && newFood != null)
+        if (GlobalVariableManager.activeOrder == false)
         {
             Image activeButtonImage = activeButton.GetComponent<Image>();
             Button activeButtonButton = activeButton.GetComponent<Button>();
             Button kitchenReadyButton = kitchenReady.GetComponent<Button>();
             Text kitchenReadyText = kitchenReady.GetComponentInChildren<Text>();
 
-            if (activeButtonImage != null && activeButtonButton != null && kitchenReadyButton != null && kitchenReadyText != null)
+            foreach (GameObject button in buttons)
             {
-                foreach (GameObject button in buttons)
+                if (button != activeButton)
                 {
-                    if (button != activeButton)
-                    {
-                        Button btn = button.GetComponent<Button>();
-                        if (btn != null)
-                        {
-                            btn.enabled = false;
-                        }
-                    }
+                    Button btn = button.GetComponent<Button>();
+                    btn.enabled = false;
                 }
-                activeButtonImage.sprite = newFood; // Cambiamos Sprite a la Orden Deseada
-                activeButtonButton.enabled = false; // Deshabilita Botón
-                kitchenReadyButton.interactable = true; // Habilita Botón de la Cocina
-                kitchenReadyText.text = "Bring Order"; // Activa Texto de la Cocina
-                GlobalVariableManager.currentFood = Food; // Cambia el index de currentFood al Correspondiente
-                GlobalVariableManager.tableNumber = Table; //Cambia el index de tableNumber al Correspondiente
             }
-            else
-            {
-                Debug.LogError("Uno o más componentes son nulos.");
-            }
-        }
-        else
-        {
-            Debug.LogError("Una o más referencias de GameObject son nulas.");
+            activeButtonImage.sprite = newFood; // Cambiamos Sprite a la Orden Deseada
+            activeButtonButton.enabled = false; // Deshabilita Botón
+            kitchenReadyButton.interactable = true; // Habilita Botón de la Cocina
+            kitchenReadyText.enabled = true; // Habilita Texto de la Cocina
+            kitchenReadyText.text = "Bring Order"; // Activa Texto de la Cocina
+            GlobalVariableManager.currentFood = Food; // Cambia el index de currentFood al Correspondiente
+            GlobalVariableManager.table = activeButton; //Cambia el GameObject de table al Correspondiente
         }
 
+    }
+
+    public void DeliverOrder()
+    {
+        if (GlobalVariableManager.activeOrder == true)
+        {
+            activeButton.SetActive(false);
+            disappearClients[tableIndex].SetActive(false);
+            foreach (GameObject button in buttons)
+            {
+                if (button != activeButton)
+                {
+                    Button btn = button.GetComponent<Button>();
+                    if (btn != null)
+                    {
+                        btn.enabled = true;
+                    }
+                }
+            }
+            GlobalVariableManager.activeOrder = false;
+        }
     }
 
 }

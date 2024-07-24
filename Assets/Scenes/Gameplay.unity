@@ -772,7 +772,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 4
-  Table: 11
   buttons:
   - {fileID: 502687237}
   - {fileID: 402039589}
@@ -937,7 +936,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 5
-  Table: 2
   buttons:
   - {fileID: 2123963883}
   - {fileID: 1109660307}
@@ -1264,7 +1262,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 2
-  Table: 14
   buttons:
   - {fileID: 502687237}
   - {fileID: 402039589}
@@ -1434,7 +1431,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 4
-  Table: 18
   buttons:
   - {fileID: 502687237}
   - {fileID: 402039589}
@@ -1772,7 +1768,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 5
-  Table: 17
   buttons:
   - {fileID: 502687237}
   - {fileID: 402039589}
@@ -3093,7 +3088,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 3
-  Table: 6
   buttons:
   - {fileID: 2123963883}
   - {fileID: 1109660307}
@@ -3420,7 +3414,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 2
-  Table: 1
   buttons:
   - {fileID: 1242411824}
   - {fileID: 312235967}
@@ -4281,7 +4274,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 2
-  Table: 11
   buttons:
   - {fileID: 1242411824}
   - {fileID: 312235967}
@@ -4444,7 +4436,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 1
-  Table: 1
   buttons:
   - {fileID: 502687237}
   - {fileID: 402039589}
@@ -4945,7 +4936,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 3
-  Table: 16
   buttons:
   - {fileID: 502687237}
   - {fileID: 402039589}
@@ -4969,6 +4959,158 @@ MonoBehaviour:
   activeButton: {fileID: 425890264}
   kitchenReady: {fileID: 1033868928}
   newFood: {fileID: 102034373, guid: 7f7a616bef883ee4d99a9ecb21bedbbf, type: 3}
+--- !u!1 &436451425
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 436451426}
+  - component: {fileID: 436451429}
+  - component: {fileID: 436451428}
+  - component: {fileID: 436451427}
+  - component: {fileID: 436451430}
+  m_Layer: 5
+  m_Name: LemonPie
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &436451426
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436451425}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1813031401}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.83632094, y: 0.7272503}
+  m_AnchorMax: {x: 0.90000004, y: 0.8352503}
+  m_AnchoredPosition: {x: 0, y: -0.055336}
+  m_SizeDelta: {x: -0.2955017, y: -0.3213997}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &436451427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436451425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 436451428}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 436451430}
+        m_TargetAssemblyTypeName: GetFood, Assembly-CSharp
+        m_MethodName: TakeFood
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &436451428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436451425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -8302414, guid: 7f7a616bef883ee4d99a9ecb21bedbbf, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &436451429
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436451425}
+  m_CullTransparentMesh: 1
+--- !u!114 &436451430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436451425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37374e023d2d2e941b863c874b7e8b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodOnCounter:
+  - {fileID: 436451425}
+  - {fileID: 694939900}
+  - {fileID: 1046679999}
+  - {fileID: 2050234231}
+  - {fileID: 1114515110}
+  - {fileID: 894716278}
 --- !u!1 &441284984
 GameObject:
   m_ObjectHideFlags: 0
@@ -5283,7 +5425,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 1
-  Table: 4
   buttons:
   - {fileID: 502687237}
   - {fileID: 402039589}
@@ -5898,7 +6039,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 2
-  Table: 0
   buttons:
   - {fileID: 502687237}
   - {fileID: 402039589}
@@ -6187,7 +6327,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 5
-  Table: 9
   buttons:
   - {fileID: 1242411824}
   - {fileID: 312235967}
@@ -6819,7 +6958,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 4
-  Table: 5
   buttons:
   - {fileID: 2123963883}
   - {fileID: 1109660307}
@@ -8064,6 +8202,158 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 682305631}
   m_CullTransparentMesh: 1
+--- !u!1 &694939900
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 694939901}
+  - component: {fileID: 694939904}
+  - component: {fileID: 694939903}
+  - component: {fileID: 694939902}
+  - component: {fileID: 694939905}
+  m_Layer: 5
+  m_Name: Waffles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &694939901
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694939900}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1813031401}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.83632094, y: 0.7272503}
+  m_AnchorMax: {x: 0.90000004, y: 0.8352503}
+  m_AnchoredPosition: {x: 0, y: -0.055336}
+  m_SizeDelta: {x: -0.2955017, y: -0.3213997}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &694939902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694939900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 694939903}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 694939905}
+        m_TargetAssemblyTypeName: GetFood, Assembly-CSharp
+        m_MethodName: TakeFood
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &694939903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694939900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -239474024, guid: 7f7a616bef883ee4d99a9ecb21bedbbf, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &694939904
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694939900}
+  m_CullTransparentMesh: 1
+--- !u!114 &694939905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694939900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37374e023d2d2e941b863c874b7e8b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodOnCounter:
+  - {fileID: 436451425}
+  - {fileID: 694939900}
+  - {fileID: 1046679999}
+  - {fileID: 2050234231}
+  - {fileID: 1114515110}
+  - {fileID: 894716278}
 --- !u!1 &714216200
 GameObject:
   m_ObjectHideFlags: 0
@@ -8697,7 +8987,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 3
-  Table: 10
   buttons:
   - {fileID: 502687237}
   - {fileID: 402039589}
@@ -8862,7 +9151,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 0
-  Table: 6
   buttons:
   - {fileID: 502687237}
   - {fileID: 402039589}
@@ -9621,6 +9909,158 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &894716278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 894716279}
+  - component: {fileID: 894716282}
+  - component: {fileID: 894716281}
+  - component: {fileID: 894716280}
+  - component: {fileID: 894716283}
+  m_Layer: 5
+  m_Name: Bacon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &894716279
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894716278}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1813031401}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.83632094, y: 0.7272503}
+  m_AnchorMax: {x: 0.90000004, y: 0.8352503}
+  m_AnchoredPosition: {x: 0, y: -0.055336}
+  m_SizeDelta: {x: -0.2955017, y: -0.3213997}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &894716280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894716278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 894716281}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 894716283}
+        m_TargetAssemblyTypeName: GetFood, Assembly-CSharp
+        m_MethodName: TakeFood
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &894716281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894716278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -1679180866, guid: 7f7a616bef883ee4d99a9ecb21bedbbf, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &894716282
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894716278}
+  m_CullTransparentMesh: 1
+--- !u!114 &894716283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894716278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37374e023d2d2e941b863c874b7e8b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodOnCounter:
+  - {fileID: 436451425}
+  - {fileID: 694939900}
+  - {fileID: 1046679999}
+  - {fileID: 2050234231}
+  - {fileID: 1114515110}
+  - {fileID: 894716278}
 --- !u!1 &895126382
 GameObject:
   m_ObjectHideFlags: 0
@@ -10105,7 +10545,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 0
-  Table: 15
   buttons:
   - {fileID: 502687237}
   - {fileID: 402039589}
@@ -13052,7 +13491,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 1
-  Table: 3
   buttons:
   - {fileID: 1242411824}
   - {fileID: 312235967}
@@ -13215,7 +13653,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 2
-  Table: 4
   buttons:
   - {fileID: 2123963883}
   - {fileID: 1109660307}
@@ -13588,7 +14025,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 3
-  Table: 10
   buttons:
   - {fileID: 1242411824}
   - {fileID: 312235967}
@@ -13688,7 +14124,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1033868931}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1033868933}
+        m_TargetAssemblyTypeName: KitchenBtn, Assembly-CSharp
+        m_MethodName: RecibeOrder
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1033868931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13739,8 +14187,166 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b5a9fc2c1dd3ab4da7f4517541b2194, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  foodOnCounter: 
-  Time: 0
+  foodOnCounter:
+  - {fileID: 436451425}
+  - {fileID: 694939900}
+  - {fileID: 1046679999}
+  - {fileID: 2050234231}
+  - {fileID: 1114515110}
+  - {fileID: 894716278}
+  kitchenBtn: {fileID: 1033868928}
+--- !u!1 &1046679999
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1046680000}
+  - component: {fileID: 1046680003}
+  - component: {fileID: 1046680002}
+  - component: {fileID: 1046680001}
+  - component: {fileID: 1046680004}
+  m_Layer: 5
+  m_Name: PumpkinPie
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1046680000
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046679999}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1813031401}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.83632094, y: 0.7272503}
+  m_AnchorMax: {x: 0.90000004, y: 0.8352503}
+  m_AnchoredPosition: {x: 0, y: -0.055336}
+  m_SizeDelta: {x: -0.2955017, y: -0.3213997}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1046680001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046679999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1046680002}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1046680004}
+        m_TargetAssemblyTypeName: GetFood, Assembly-CSharp
+        m_MethodName: TakeFood
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1046680002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046679999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 926154103, guid: 7f7a616bef883ee4d99a9ecb21bedbbf, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1046680003
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046679999}
+  m_CullTransparentMesh: 1
+--- !u!114 &1046680004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046679999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37374e023d2d2e941b863c874b7e8b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodOnCounter:
+  - {fileID: 436451425}
+  - {fileID: 694939900}
+  - {fileID: 1046679999}
+  - {fileID: 2050234231}
+  - {fileID: 1114515110}
+  - {fileID: 894716278}
 --- !u!1 &1096480169
 GameObject:
   m_ObjectHideFlags: 0
@@ -14133,7 +14739,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 0
-  Table: 1
   buttons:
   - {fileID: 2123963883}
   - {fileID: 1109660307}
@@ -14292,7 +14897,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 0
-  Table: 7
   buttons:
   - {fileID: 2123963883}
   - {fileID: 1109660307}
@@ -14451,7 +15055,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 2
-  Table: 7
   buttons:
   - {fileID: 502687237}
   - {fileID: 402039589}
@@ -14470,6 +15073,158 @@ MonoBehaviour:
   activeButton: {fileID: 1110579089}
   kitchenReady: {fileID: 1033868928}
   newFood: {fileID: 1806066235, guid: 7f7a616bef883ee4d99a9ecb21bedbbf, type: 3}
+--- !u!1 &1114515110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1114515111}
+  - component: {fileID: 1114515114}
+  - component: {fileID: 1114515113}
+  - component: {fileID: 1114515112}
+  - component: {fileID: 1114515115}
+  m_Layer: 5
+  m_Name: Eggs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1114515111
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114515110}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1813031401}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.83632094, y: 0.7272503}
+  m_AnchorMax: {x: 0.90000004, y: 0.8352503}
+  m_AnchoredPosition: {x: 0, y: -0.055336}
+  m_SizeDelta: {x: -0.2955017, y: -0.3213997}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1114515112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114515110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1114515113}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1114515115}
+        m_TargetAssemblyTypeName: GetFood, Assembly-CSharp
+        m_MethodName: TakeFood
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1114515113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114515110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 1479929137, guid: 7f7a616bef883ee4d99a9ecb21bedbbf, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1114515114
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114515110}
+  m_CullTransparentMesh: 1
+--- !u!114 &1114515115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114515110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37374e023d2d2e941b863c874b7e8b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodOnCounter:
+  - {fileID: 436451425}
+  - {fileID: 694939900}
+  - {fileID: 1046679999}
+  - {fileID: 2050234231}
+  - {fileID: 1114515110}
+  - {fileID: 894716278}
 --- !u!1 &1116531179
 GameObject:
   m_ObjectHideFlags: 0
@@ -14954,7 +15709,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 2
-  Table: 2
   buttons:
   - {fileID: 502687237}
   - {fileID: 402039589}
@@ -15599,7 +16353,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 4
-  Table: 8
   buttons:
   - {fileID: 1242411824}
   - {fileID: 312235967}
@@ -15762,7 +16515,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 4
-  Table: 0
   buttons:
   - {fileID: 1242411824}
   - {fileID: 312235967}
@@ -16129,7 +16881,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 4
-  Table: 8
   buttons:
   - {fileID: 502687237}
   - {fileID: 402039589}
@@ -16339,7 +17090,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 5
-  Table: 4
   buttons:
   - {fileID: 1242411824}
   - {fileID: 312235967}
@@ -16670,7 +17420,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 3
-  Table: 3
   buttons:
   - {fileID: 502687237}
   - {fileID: 402039589}
@@ -17071,7 +17820,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 1
-  Table: 5
   buttons:
   - {fileID: 1242411824}
   - {fileID: 312235967}
@@ -17234,7 +17982,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 0
-  Table: 6
   buttons:
   - {fileID: 1242411824}
   - {fileID: 312235967}
@@ -17397,7 +18144,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 2
-  Table: 13
   buttons:
   - {fileID: 502687237}
   - {fileID: 402039589}
@@ -19750,7 +20496,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 5
-  Table: 12
   buttons:
   - {fileID: 502687237}
   - {fileID: 402039589}
@@ -22407,7 +23152,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 4
-  Table: 2
   buttons:
   - {fileID: 1242411824}
   - {fileID: 312235967}
@@ -22624,6 +23368,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1033868929}
+  - {fileID: 436451426}
+  - {fileID: 694939901}
+  - {fileID: 1046680000}
+  - {fileID: 2050234232}
+  - {fileID: 1114515111}
+  - {fileID: 894716279}
   m_Father: {fileID: 512140555}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -23008,7 +23758,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 5
-  Table: 5
   buttons:
   - {fileID: 502687237}
   - {fileID: 402039589}
@@ -24015,7 +24764,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 2
-  Table: 3
   buttons:
   - {fileID: 2123963883}
   - {fileID: 1109660307}
@@ -27042,7 +27790,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 4
-  Table: 7
   buttons:
   - {fileID: 1242411824}
   - {fileID: 312235967}
@@ -27142,6 +27889,158 @@ MonoBehaviour:
   - {fileID: 659314060}
   - {fileID: 303836027}
   - {fileID: 1110544207}
+--- !u!1 &2050234231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2050234232}
+  - component: {fileID: 2050234235}
+  - component: {fileID: 2050234234}
+  - component: {fileID: 2050234233}
+  - component: {fileID: 2050234236}
+  m_Layer: 5
+  m_Name: Brownie
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &2050234232
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050234231}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1813031401}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.83632094, y: 0.7272503}
+  m_AnchorMax: {x: 0.90000004, y: 0.8352503}
+  m_AnchoredPosition: {x: 0, y: -0.055336}
+  m_SizeDelta: {x: -0.2955017, y: -0.3213997}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2050234233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050234231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2050234234}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2050234236}
+        m_TargetAssemblyTypeName: GetFood, Assembly-CSharp
+        m_MethodName: TakeFood
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2050234234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050234231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 1324952736, guid: 7f7a616bef883ee4d99a9ecb21bedbbf, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2050234235
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050234231}
+  m_CullTransparentMesh: 1
+--- !u!114 &2050234236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050234231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37374e023d2d2e941b863c874b7e8b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodOnCounter:
+  - {fileID: 436451425}
+  - {fileID: 694939900}
+  - {fileID: 1046679999}
+  - {fileID: 2050234231}
+  - {fileID: 1114515110}
+  - {fileID: 894716278}
 --- !u!1 &2066024117
 GameObject:
   m_ObjectHideFlags: 0
@@ -27456,7 +28355,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 1
-  Table: 9
   buttons:
   - {fileID: 502687237}
   - {fileID: 402039589}
@@ -28008,7 +28906,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: 1
-  Table: 0
   buttons:
   - {fileID: 2123963883}
   - {fileID: 1109660307}

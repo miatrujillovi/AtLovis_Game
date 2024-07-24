@@ -5,13 +5,16 @@ using UnityEngine;
 public class GlobalVariableManager : MonoBehaviour
 {
     public static int currentFood;
-    public static int tableNumber;
+    public static GameObject table;
+    public static float Time;
+    public static bool activeOrder;
 
     // Start is called before the first frame update
     void Start()
     {
         currentFood = 6;
-        tableNumber = 20;
+        Time = 7f;
+        activeOrder = false;
     }
 
 }
