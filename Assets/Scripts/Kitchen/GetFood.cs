@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
+
 
 public class GetFood : MonoBehaviour
 {
@@ -11,5 +13,6 @@ public class GetFood : MonoBehaviour
     {
         foodOnCounter[GlobalVariableManager.currentFood].SetActive(false); //Desactiva el Boton de la Comida Correspondiente
         GlobalVariableManager.activeOrder = true; //Cambia la activeOrder a Verdadera
+        //GlobalVariableManager.table.enabled = true; //Activa el Boton de la Mesa Correspondiente
     }
 }

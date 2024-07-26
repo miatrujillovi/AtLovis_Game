@@ -8,6 +8,7 @@ public class KitchenBtn : MonoBehaviour
     public GameObject[] foodOnCounter;
     public GameObject kitchenBtn;
 
+
     public void RecibeOrder()
     {
         StartCoroutine(CookingTime(GlobalVariableManager.Time));
@@ -15,17 +16,19 @@ public class KitchenBtn : MonoBehaviour
 
     IEnumerator CookingTime(float _time)
     {
+        
         Text kitchenBtnText = kitchenBtn.GetComponentInChildren<Text>();
         Button kitchenReadyButton = kitchenBtn.GetComponent<Button>();
-        while (true)
-        {
-            kitchenBtn.SetActive(true);
-            kitchenBtnText.text = "Cooking..."; // Activa Texto de la Cocina
-            yield return new WaitForSeconds(_time);
 
-            foodOnCounter[GlobalVariableManager.currentFood].SetActive(true); //Activa el Boton de la Comida Correspondiente
-            kitchenBtnText.enabled = false;
-            kitchenBtn.SetActive(false);
-        }
+        kitchenReadyButton.interactable = false; //Deshabilita Interaccion con Boton de Cocina mientras la corutina trabaja
+        kitchenBtnText.text = "Cooking..."; // Activa Texto de la Cocina
+
+        yield return new WaitForSeconds(_time);
+
+        Debug.Log("Se detiene la corrutina??");
+        foodOnCounter[GlobalVariableManager.currentFood].SetActive(true); //Activa el Boton de la Comida Correspondiente
+        kitchenBtnText.enabled = false;
+
     }
+
 }

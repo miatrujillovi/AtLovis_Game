@@ -21,6 +21,7 @@ public class ClientBehavior : MonoBehaviour
             yield return new WaitForSeconds(Random.Range(_min, _max));
             clients[_index].SetActive(true);
             startButtons[_index].SetActive(true);
+            Debug.Log("Client and Button activated at index: " + _index);
         }
     }
 }
