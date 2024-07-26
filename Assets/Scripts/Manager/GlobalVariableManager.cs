@@ -10,6 +10,7 @@ public class GlobalVariableManager : MonoBehaviour
     public static GameObject table;
     public static float Time;
     public static bool activeOrder;
+    public static bool waitingTime;
     public static Button[] activeButtons;
     //public static int index;
 
@@ -31,6 +32,7 @@ public class GlobalVariableManager : MonoBehaviour
     {
         Time = 7f;
         activeOrder = false;
+        waitingTime = false;
         activeButtons = GameObject.FindObjectsOfType<Button>();
     }
 

@@ -13,6 +13,6 @@ public class GetFood : MonoBehaviour
     {
         foodOnCounter[GlobalVariableManager.currentFood].SetActive(false); //Desactiva el Boton de la Comida Correspondiente
         GlobalVariableManager.activeOrder = true; //Cambia la activeOrder a Verdadera
-        //GlobalVariableManager.table.enabled = true; //Activa el Boton de la Mesa Correspondiente
+        GlobalVariableManager.waitingTime = true; //Cambia waitingTime a Verdadera
     }
 }

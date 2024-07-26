@@ -19,7 +19,7 @@ public class StartButton : MonoBehaviour
     {
         Debug.Log("TakeOrder called");
 
-        if (GlobalVariableManager.activeOrder == false)
+        if (GlobalVariableManager.activeOrder == false && GlobalVariableManager.waitingTime == false)
         {
             Image activeButtonImage = activeButton.GetComponent<Image>();
             Button kitchenReadyButton = kitchenReady.GetComponent<Button>();
@@ -32,6 +32,7 @@ public class StartButton : MonoBehaviour
                 btn.enabled = false;
             }
             activeButtonButton.enabled = true;
+            GlobalVariableManager.waitingTime = true;
             activeButtonImage.sprite = newFood; // Cambiamos Sprite a la Orden Deseada
             kitchenReadyButton.interactable = true; // Habilita Interaccion con Boton de Cocina
             kitchenReadyText.enabled = true; // Habilita Texto de la Cocina
@@ -50,7 +51,7 @@ public class StartButton : MonoBehaviour
     {
         Debug.Log("DeliverOrder called");
 
-        if (GlobalVariableManager.activeOrder == true)
+        if (GlobalVariableManager.activeOrder == true && GlobalVariableManager.waitingTime == true)
         {
 
             Image activeButtonImage = activeButton.GetComponent<Image>();
@@ -63,6 +64,7 @@ public class StartButton : MonoBehaviour
                 btn.enabled = true;
             }
             GlobalVariableManager.activeOrder = false; // Cambia activeOrder a false
+            GlobalVariableManager.waitingTime = false; //Cambia waitingTime a false
             GlobalVariableManager.clientesAtendidos++; //Aumenta la Variable de Clientes Atendidos
             activeButtonImage.sprite = oldFood; // Cambiamos Sprite al Original
         } 
