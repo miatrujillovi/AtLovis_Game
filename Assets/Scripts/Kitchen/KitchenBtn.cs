@@ -20,7 +20,7 @@ public class KitchenBtn : MonoBehaviour
         Text kitchenBtnText = kitchenBtn.GetComponentInChildren<Text>();
         Button kitchenReadyButton = kitchenBtn.GetComponent<Button>();
 
-        kitchenReadyButton.interactable = false; //Deshabilita Interaccion con Boton de Cocina mientras la corutina trabaja
+        kitchenReadyButton.enabled = false; //Deshabilita Interaccion con Boton de Cocina mientras la corutina trabaja
         kitchenBtnText.text = "Cooking..."; // Activa Texto de la Cocina
 
         yield return new WaitForSeconds(_time);
@@ -28,6 +28,7 @@ public class KitchenBtn : MonoBehaviour
         Debug.Log("Se detiene la corrutina??");
         foodOnCounter[GlobalVariableManager.currentFood].SetActive(true); //Activa el Boton de la Comida Correspondiente
         kitchenBtnText.enabled = false;
+        kitchenReadyButton.enabled = true;
 
     }
 
