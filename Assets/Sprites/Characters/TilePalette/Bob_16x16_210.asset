@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Bob_16x16_210
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 1034109381, guid: df54327d1c18f054a85afe58a975ce37, type: 3}
+  m_Sprite: {fileID: 2135961844, guid: bf2fe2fd4bf7fcb4eac59e15ed26ffe7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
