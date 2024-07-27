@@ -24,4 +24,9 @@ public class SceneManagement : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName: "Gachapon");
     }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene(sceneName: "MainMenu");
+    }
 }
