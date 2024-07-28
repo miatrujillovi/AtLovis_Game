@@ -29,6 +29,8 @@ public class GlobalVariableManager : MonoBehaviour
     public static int clientesAtendidos;
     public static float propinaInventory;
     public static float experienciaInventory;
+    public static float starsInventory;
+    public static int levelNumber;
     public static int stars;
 
     // Start is called before the first frame update
