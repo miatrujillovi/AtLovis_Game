@@ -29,7 +29,7 @@ public class GlobalVariableManager : MonoBehaviour
     public static int clientesAtendidos;
     public static float propinaInventory;
     public static float experienciaInventory;
-    public static float starsInventory;
+    public static float starsInventory = 100;
     public static int levelNumber;
     public static int stars;
 
