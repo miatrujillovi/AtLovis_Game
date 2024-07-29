@@ -9,6 +9,8 @@ public class LootTableDisplay : MonoBehaviour
     [SerializeField] private GameObject lootItemPrefab; // Prefab del panel que contiene una imagen
     [SerializeField] private Transform lootItemsParent;
     [SerializeField] private int itemsToDisplay = 10;
+    [SerializeField] private Vector2 startOffset = new Vector2(10, -10); // Desplazamiento inicial
+    [SerializeField] private Vector2 itemSpacing = new Vector2(100, 100); // Espaciado entre elementos
 
     public void DisplayRandomItems()
     {
@@ -52,12 +54,17 @@ public class LootTableDisplay : MonoBehaviour
                 {
                     Debug.Log("Asignando sprite: " + randomItem.sprite.name);
                     itemImage.sprite = randomItem.sprite;
-                    Debug.Log("Se asigno el sprite exitosamente");
                 }
                 else
                 {
                     Debug.LogError("El prefab LootItemUI no tiene un componente Image dentro del Panel.");
                 }
+
+                // Ajustar la posición del lootItemUI
+                RectTransform rectTransform = lootItemUI.GetComponent<RectTransform>();
+                float xPos = startOffset.x + (i % 5) * itemSpacing.x; // Posición en X
+                float yPos = startOffset.y - (i / 5) * itemSpacing.y; // Posición en Y
+                rectTransform.anchoredPosition = new Vector2(xPos, yPos);
             }
         }
         else
@@ -66,4 +73,3 @@ public class LootTableDisplay : MonoBehaviour
         }
     }
 }
-
