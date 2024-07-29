@@ -9,6 +9,7 @@ public class TimerManager : MonoBehaviour
     public GameObject canvas;
     public Text propinaTxt;
     public Text experienciaTxt;
+    public GameObject character;
 
     void Start()
     {
@@ -17,6 +18,8 @@ public class TimerManager : MonoBehaviour
 
     IEnumerator Countdown()
     {
+        GlobalVariableManager.activeCharacter = character;
+        character.SetActive(true);
         yield return new WaitForSeconds(120);
 
         manager.SetActive(false);
