@@ -487,10 +487,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.031805687, y: 0.25831684}
-  m_AnchorMax: {x: 0.68980575, y: 0.32674652}
-  m_AnchoredPosition: {x: -0.23632812, y: -1.2648926}
-  m_SizeDelta: {x: -0.47270012, y: 1.3161163}
+  m_AnchorMin: {x: 0.031805687, y: 0.28656757}
+  m_AnchorMax: {x: 0.68980575, y: 0.35456756}
+  m_AnchoredPosition: {x: -0.23632812, y: -0.3637085}
+  m_SizeDelta: {x: -0.47270012, y: -0.22193909}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &31507487
 MonoBehaviour:
@@ -566,10 +566,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.031805687, y: 0.64274657}
-  m_AnchorMax: {x: 0.68980575, y: 0.6997606}
-  m_AnchoredPosition: {x: -0.2362976, y: -0.5566101}
-  m_SizeDelta: {x: -0.47265625, y: -0.7374115}
+  m_AnchorMin: {x: 0.031805687, y: 0.65756756}
+  m_AnchorMax: {x: 0.68980575, y: 0.7108559}
+  m_AnchoredPosition: {x: -0.2362976, y: -0.16763306}
+  m_SizeDelta: {x: -0.47265625, y: -0.018875122}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &66799960
 MonoBehaviour:
@@ -645,10 +645,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.031805687, y: 0.6997606}
-  m_AnchorMax: {x: 0.68980575, y: 0.758}
-  m_AnchoredPosition: {x: -0.2362976, y: -1.5066223}
-  m_SizeDelta: {x: -0.47265625, y: -1.3945923}
+  m_AnchorMin: {x: 0.031805687, y: 0.7108559}
+  m_AnchorMax: {x: 0.68980575, y: 0.7654234}
+  m_AnchoredPosition: {x: -0.2362976, y: -0.41290283}
+  m_SizeDelta: {x: -0.47265625, y: -0.70358276}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &72756194
 MonoBehaviour:
@@ -779,7 +779,7 @@ GameObject:
   - component: {fileID: 81380651}
   - component: {fileID: 81380650}
   - component: {fileID: 81380649}
-  - component: {fileID: 81380648}
+  - component: {fileID: 81380652}
   m_Layer: 5
   m_Name: Mision7Btn
   m_TagString: Untagged
@@ -802,26 +802,11 @@ RectTransform:
   - {fileID: 1603243808}
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.72680575, y: 0.46500003}
-  m_AnchorMax: {x: 0.9726114, y: 0.527}
-  m_AnchoredPosition: {x: -0.022094727, y: -0.9312134}
-  m_SizeDelta: {x: 2.81913, y: -0.8913574}
+  m_AnchorMin: {x: 0.72200006, y: 0.48727927}
+  m_AnchorMax: {x: 0.97742623, y: 0.5455676}
+  m_AnchoredPosition: {x: -0.022094727, y: -0.60321045}
+  m_SizeDelta: {x: -1.18087, y: -0.2848816}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &81380648
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 81380646}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
-  claimButton: {fileID: 81380649}
-  claimText: {fileID: 1603243809}
 --- !u!114 &81380649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -866,9 +851,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 81380648}
-        m_TargetAssemblyTypeName: LevelSystem, Assembly-CSharp
-        m_MethodName: Nivel7
+      - m_Target: {fileID: 81380652}
+        m_TargetAssemblyTypeName: Misiones, Assembly-CSharp
+        m_MethodName: Mision7
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -916,6 +901,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 81380646}
   m_CullTransparentMesh: 1
+--- !u!114 &81380652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81380646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9c0eccaaa7ef364989b639e8e9b2144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  claimButton: {fileID: 81380649}
+  claimText: {fileID: 1603243809}
 --- !u!1 &97078576
 GameObject:
   m_ObjectHideFlags: 0
@@ -928,7 +927,7 @@ GameObject:
   - component: {fileID: 97078581}
   - component: {fileID: 97078580}
   - component: {fileID: 97078579}
-  - component: {fileID: 97078578}
+  - component: {fileID: 97078582}
   m_Layer: 5
   m_Name: Mision13Btn
   m_TagString: Untagged
@@ -951,26 +950,11 @@ RectTransform:
   - {fileID: 126597983}
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.72680575, y: 0.089}
-  m_AnchorMax: {x: 0.9726114, y: 0.14400001}
-  m_AnchoredPosition: {x: 1.4094849, y: 0.040161133}
-  m_SizeDelta: {x: 2.8190994, y: 1.042511}
+  m_AnchorMin: {x: 0.72680575, y: 0.12613511}
+  m_AnchorMax: {x: 0.98224103, y: 0.1811351}
+  m_AnchoredPosition: {x: -0.59051514, y: -0.10211182}
+  m_SizeDelta: {x: -1.1809006, y: -0.19366455}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &97078578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 97078576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
-  claimButton: {fileID: 97078579}
-  claimText: {fileID: 126597984}
 --- !u!114 &97078579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1015,9 +999,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 97078578}
-        m_TargetAssemblyTypeName: LevelSystem, Assembly-CSharp
-        m_MethodName: Nivel9
+      - m_Target: {fileID: 97078582}
+        m_TargetAssemblyTypeName: Misiones, Assembly-CSharp
+        m_MethodName: Mision13
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1065,6 +1049,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 97078576}
   m_CullTransparentMesh: 1
+--- !u!114 &97078582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97078576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9c0eccaaa7ef364989b639e8e9b2144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  claimButton: {fileID: 97078579}
+  claimText: {fileID: 126597984}
 --- !u!1 &98379942
 GameObject:
   m_ObjectHideFlags: 0
@@ -1426,7 +1424,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &130062002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1735,7 +1733,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
   claimButton: {fileID: 192105122}
   claimText: {fileID: 956140839}
 --- !u!1 &199227989
@@ -1987,7 +1984,7 @@ GameObject:
   - component: {fileID: 220530583}
   - component: {fileID: 220530582}
   - component: {fileID: 220530581}
-  - component: {fileID: 220530580}
+  - component: {fileID: 220530584}
   m_Layer: 5
   m_Name: Mision8Btn
   m_TagString: Untagged
@@ -2010,26 +2007,11 @@ RectTransform:
   - {fileID: 350878869}
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.72680575, y: 0.39738017}
-  m_AnchorMax: {x: 0.9726114, y: 0.4533802}
-  m_AnchoredPosition: {x: 0.9663086, y: -0.48712158}
-  m_SizeDelta: {x: 2.81913, y: 0.68966675}
+  m_AnchorMin: {x: 0.72680575, y: 0.42156756}
+  m_AnchorMax: {x: 0.97742623, y: 0.47742343}
+  m_AnchoredPosition: {x: -0.033691406, y: -0.5718384}
+  m_SizeDelta: {x: 0.81912994, y: -0.56900024}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &220530580
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 220530578}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
-  claimButton: {fileID: 220530581}
-  claimText: {fileID: 350878870}
 --- !u!114 &220530581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2074,9 +2056,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 220530580}
-        m_TargetAssemblyTypeName: LevelSystem, Assembly-CSharp
-        m_MethodName: Nivel8
+      - m_Target: {fileID: 220530584}
+        m_TargetAssemblyTypeName: Misiones, Assembly-CSharp
+        m_MethodName: Mision8
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2124,6 +2106,168 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 220530578}
   m_CullTransparentMesh: 1
+--- !u!114 &220530584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220530578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9c0eccaaa7ef364989b639e8e9b2144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  claimButton: {fileID: 220530581}
+  claimText: {fileID: 350878870}
+--- !u!1 &232214589
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 232214590}
+  - component: {fileID: 232214594}
+  - component: {fileID: 232214593}
+  - component: {fileID: 232214592}
+  - component: {fileID: 232214595}
+  m_Layer: 5
+  m_Name: Mision15Btn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &232214590
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232214589}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 663994353}
+  m_Father: {fileID: 736527357}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.72680575, y: 0.014}
+  m_AnchorMax: {x: 0.97742623, y: 0.0697117}
+  m_AnchoredPosition: {x: 0.40948486, y: 0.36254883}
+  m_SizeDelta: {x: 0.8190994, y: -0.61676025}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &232214592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232214589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 232214593}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 232214595}
+        m_TargetAssemblyTypeName: Misiones, Assembly-CSharp
+        m_MethodName: Mision15
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &232214593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232214589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &232214594
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232214589}
+  m_CullTransparentMesh: 1
+--- !u!114 &232214595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232214589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9c0eccaaa7ef364989b639e8e9b2144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  claimButton: {fileID: 232214592}
+  claimText: {fileID: 663994354}
 --- !u!1 &234378136
 GameObject:
   m_ObjectHideFlags: 0
@@ -2428,7 +2572,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
   claimButton: {fileID: 317199459}
   claimText: {fileID: 1686564532}
 --- !u!1 &321786560
@@ -2463,10 +2606,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.031805687, y: 0.32674652}
-  m_AnchorMax: {x: 0.68980575, y: 0.38750836}
-  m_AnchoredPosition: {x: -0.2362976, y: -1.2109375}
-  m_SizeDelta: {x: -0.47265625, y: -1.4980164}
+  m_AnchorMin: {x: 0.031805687, y: 0.35456756}
+  m_AnchorMax: {x: 0.68980575, y: 0.41043246}
+  m_AnchoredPosition: {x: -0.2362976, y: -0.2616577}
+  m_SizeDelta: {x: -0.47265625, y: 0.1362915}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &321786562
 MonoBehaviour:
@@ -2522,7 +2665,6 @@ GameObject:
   - component: {fileID: 329818582}
   - component: {fileID: 329818581}
   - component: {fileID: 329818580}
-  - component: {fileID: 329818583}
   m_Layer: 5
   m_Name: LevelBtn
   m_TagString: Untagged
@@ -2593,17 +2735,17 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 329818583}
-        m_TargetAssemblyTypeName: LevelSystem, Assembly-CSharp
-        m_MethodName: OpenLevelSystem
-        m_Mode: 1
+      - m_Target: {fileID: 1196942594}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &329818581
 MonoBehaviour:
@@ -2643,21 +2785,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 329818578}
   m_CullTransparentMesh: 1
---- !u!114 &329818583
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 329818578}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 1196942594}
-  claimButton: {fileID: 0}
-  claimText: {fileID: 0}
 --- !u!1 &336047010
 GameObject:
   m_ObjectHideFlags: 0
@@ -3006,10 +3133,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.031805687, y: 0.14400001}
-  m_AnchorMax: {x: 0.68980575, y: 0.20400001}
-  m_AnchoredPosition: {x: 0.818573, y: 0.22460938}
-  m_SizeDelta: {x: -0.47265625, y: -1.7277527}
+  m_AnchorMin: {x: 0.031805687, y: 0.1811351}
+  m_AnchorMax: {x: 0.68980575, y: 0.23556755}
+  m_AnchoredPosition: {x: 0.818573, y: 0.289917}
+  m_SizeDelta: {x: -0.47265625, y: -0.07632446}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &352886800
 MonoBehaviour:
@@ -3065,7 +3192,7 @@ GameObject:
   - component: {fileID: 369838932}
   - component: {fileID: 369838931}
   - component: {fileID: 369838930}
-  - component: {fileID: 369838929}
+  - component: {fileID: 369838933}
   m_Layer: 5
   m_Name: Mision5Btn
   m_TagString: Untagged
@@ -3088,26 +3215,11 @@ RectTransform:
   - {fileID: 1583594370}
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.72680575, y: 0.588}
-  m_AnchorMax: {x: 0.9726114, y: 0.64274657}
-  m_AnchoredPosition: {x: -0.022094727, y: -1.949585}
-  m_SizeDelta: {x: 2.81913, y: 1.491272}
+  m_AnchorMin: {x: 0.72200006, y: 0.601}
+  m_AnchorMax: {x: 0.9726114, y: 0.65756756}
+  m_AnchoredPosition: {x: 0.9779053, y: -0.8046417}
+  m_SizeDelta: {x: 0.81912994, y: -0.7392273}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &369838929
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 369838927}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
-  claimButton: {fileID: 369838930}
-  claimText: {fileID: 1583594371}
 --- !u!114 &369838930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3152,9 +3264,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 369838929}
-        m_TargetAssemblyTypeName: LevelSystem, Assembly-CSharp
-        m_MethodName: Nivel5
+      - m_Target: {fileID: 369838933}
+        m_TargetAssemblyTypeName: Misiones, Assembly-CSharp
+        m_MethodName: Mision5
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3202,6 +3314,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 369838927}
   m_CullTransparentMesh: 1
+--- !u!114 &369838933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369838927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9c0eccaaa7ef364989b639e8e9b2144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  claimButton: {fileID: 369838930}
+  claimText: {fileID: 1583594371}
 --- !u!1 &388291717
 GameObject:
   m_ObjectHideFlags: 0
@@ -3214,7 +3340,7 @@ GameObject:
   - component: {fileID: 388291722}
   - component: {fileID: 388291721}
   - component: {fileID: 388291720}
-  - component: {fileID: 388291719}
+  - component: {fileID: 388291723}
   m_Layer: 5
   m_Name: Mision9Btn
   m_TagString: Untagged
@@ -3237,26 +3363,11 @@ RectTransform:
   - {fileID: 493917368}
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.72680575, y: 0.32674652}
-  m_AnchorMax: {x: 0.9726114, y: 0.38000003}
-  m_AnchoredPosition: {x: 0.8015137, y: 0.81103516}
-  m_SizeDelta: {x: 2.8190994, y: 2.5019836}
+  m_AnchorMin: {x: 0.72200006, y: 0.35456756}
+  m_AnchorMax: {x: 0.97742623, y: 0.41043246}
+  m_AnchoredPosition: {x: 0.8015137, y: -0.15527344}
+  m_SizeDelta: {x: -1.1809006, y: 0.3050537}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &388291719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 388291717}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
-  claimButton: {fileID: 388291720}
-  claimText: {fileID: 493917369}
 --- !u!114 &388291720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3301,9 +3412,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 388291719}
-        m_TargetAssemblyTypeName: LevelSystem, Assembly-CSharp
-        m_MethodName: Nivel9
+      - m_Target: {fileID: 388291723}
+        m_TargetAssemblyTypeName: Misiones, Assembly-CSharp
+        m_MethodName: Mision9
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3351,6 +3462,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 388291717}
   m_CullTransparentMesh: 1
+--- !u!114 &388291723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388291717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9c0eccaaa7ef364989b639e8e9b2144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  claimButton: {fileID: 388291720}
+  claimText: {fileID: 493917369}
 --- !u!1 &400225743
 GameObject:
   m_ObjectHideFlags: 0
@@ -3734,7 +3859,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
   claimButton: {fileID: 403323839}
   claimText: {fileID: 1051264559}
 --- !u!1 &423895014
@@ -3883,7 +4007,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
   claimButton: {fileID: 423895016}
   claimText: {fileID: 563234281}
 --- !u!1 &448632125
@@ -4032,7 +4155,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
   claimButton: {fileID: 448632127}
   claimText: {fileID: 1764374677}
 --- !u!1 &455659531
@@ -4359,7 +4481,6 @@ GameObject:
   - component: {fileID: 489795137}
   - component: {fileID: 489795136}
   - component: {fileID: 489795135}
-  - component: {fileID: 489795134}
   m_Layer: 5
   m_Name: SalirBtn
   m_TagString: Untagged
@@ -4387,21 +4508,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1.8200073, y: -0.5}
   m_SizeDelta: {x: 1.5301971, y: 2.1940002}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &489795134
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 489795132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 1196942594}
-  claimButton: {fileID: 0}
-  claimText: {fileID: 0}
 --- !u!114 &489795135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4446,10 +4552,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 489795134}
-        m_TargetAssemblyTypeName: LevelSystem, Assembly-CSharp
-        m_MethodName: CloseLevelSystem
-        m_Mode: 1
+      - m_Target: {fileID: 1196942594}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5506,7 +5612,7 @@ GameObject:
   - component: {fileID: 527045675}
   - component: {fileID: 527045674}
   - component: {fileID: 527045673}
-  - component: {fileID: 527045672}
+  - component: {fileID: 527045676}
   m_Layer: 5
   m_Name: Mision6Btn
   m_TagString: Untagged
@@ -5529,26 +5635,11 @@ RectTransform:
   - {fileID: 1010729930}
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.72680575, y: 0.527}
-  m_AnchorMax: {x: 0.9726114, y: 0.588}
-  m_AnchoredPosition: {x: -0.022094727, y: -1.3515625}
-  m_SizeDelta: {x: 2.81913, y: -0.33927917}
+  m_AnchorMin: {x: 0.72200006, y: 0.5455676}
+  m_AnchorMax: {x: 0.9726114, y: 0.601}
+  m_AnchoredPosition: {x: 0.9779053, y: 0.09413147}
+  m_SizeDelta: {x: 0.81912994, y: 1.2896576}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &527045672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 527045670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
-  claimButton: {fileID: 527045673}
-  claimText: {fileID: 1010729931}
 --- !u!114 &527045673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5593,9 +5684,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 527045672}
-        m_TargetAssemblyTypeName: LevelSystem, Assembly-CSharp
-        m_MethodName: Nivel6
+      - m_Target: {fileID: 527045676}
+        m_TargetAssemblyTypeName: Misiones, Assembly-CSharp
+        m_MethodName: Mision6
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5643,6 +5734,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 527045670}
   m_CullTransparentMesh: 1
+--- !u!114 &527045676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527045670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9c0eccaaa7ef364989b639e8e9b2144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  claimButton: {fileID: 527045673}
+  claimText: {fileID: 1010729931}
 --- !u!1 &537497689
 GameObject:
   m_ObjectHideFlags: 0
@@ -5833,10 +5938,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.031805687, y: 0.46500003}
-  m_AnchorMax: {x: 0.68980575, y: 0.527}
-  m_AnchoredPosition: {x: -0.2362976, y: -0.833313}
-  m_SizeDelta: {x: -0.47265625, y: -0.8913574}
+  m_AnchorMin: {x: 0.031805687, y: 0.48727927}
+  m_AnchorMax: {x: 0.68980575, y: 0.5455676}
+  m_AnchoredPosition: {x: -0.2362976, y: -0.50531006}
+  m_SizeDelta: {x: -0.47265625, y: -0.2848816}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &568679354
 MonoBehaviour:
@@ -6053,7 +6158,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &595558304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6385,7 +6490,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
   claimButton: {fileID: 637336950}
   claimText: {fileID: 1367713861}
 --- !u!1 &649757560
@@ -6459,9 +6563,9 @@ RectTransform:
   m_Father: {fileID: 10152712}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -17, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &660833773
 MonoBehaviour:
@@ -6593,6 +6697,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 660907123}
   m_CullTransparentMesh: 1
+--- !u!1 &663994352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 663994353}
+  - component: {fileID: 663994355}
+  - component: {fileID: 663994354}
+  m_Layer: 5
+  m_Name: Mision15TXT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &663994353
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663994352}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 232214590}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &663994354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663994352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: fc6cd572cfe6bf44db2cc5c0fb7aaa46, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 20 Stars
+--- !u!222 &663994355
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663994352}
+  m_CullTransparentMesh: 1
 --- !u!1 &685536704
 GameObject:
   m_ObjectHideFlags: 0
@@ -6605,7 +6788,7 @@ GameObject:
   - component: {fileID: 685536709}
   - component: {fileID: 685536708}
   - component: {fileID: 685536707}
-  - component: {fileID: 685536706}
+  - component: {fileID: 685536710}
   m_Layer: 5
   m_Name: Mision11Btn
   m_TagString: Untagged
@@ -6628,26 +6811,11 @@ RectTransform:
   - {fileID: 1311965638}
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.72680575, y: 0.19625348}
-  m_AnchorMax: {x: 0.9726114, y: 0.25100002}
-  m_AnchoredPosition: {x: 1.4094849, y: 0.08538818}
-  m_SizeDelta: {x: 2.8190994, y: 1.5046082}
+  m_AnchorMin: {x: 0.72680575, y: 0.23556755}
+  m_AnchorMax: {x: 0.97742623, y: 0.294}
+  m_AnchoredPosition: {x: 0.4095459, y: -0.61120605}
+  m_SizeDelta: {x: 0.8190994, y: -1.7258606}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &685536706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 685536704}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
-  claimButton: {fileID: 685536707}
-  claimText: {fileID: 1311965639}
 --- !u!114 &685536707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6692,9 +6860,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 685536706}
-        m_TargetAssemblyTypeName: LevelSystem, Assembly-CSharp
-        m_MethodName: Nivel9
+      - m_Target: {fileID: 685536710}
+        m_TargetAssemblyTypeName: Misiones, Assembly-CSharp
+        m_MethodName: Mision11
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6742,6 +6910,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 685536704}
   m_CullTransparentMesh: 1
+--- !u!114 &685536710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685536704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9c0eccaaa7ef364989b639e8e9b2144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  claimButton: {fileID: 685536707}
+  claimText: {fileID: 1311965639}
 --- !u!1 &706539539
 GameObject:
   m_ObjectHideFlags: 0
@@ -7115,13 +7297,15 @@ RectTransform:
   - {fileID: 97078577}
   - {fileID: 1045302716}
   - {fileID: 1782169360}
+  - {fileID: 1494857211}
+  - {fileID: 232214590}
   - {fileID: 1968719823}
   m_Father: {fileID: 660833772}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 516.3602}
+  m_SizeDelta: {x: 0, y: 538.8364}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &766897849
 GameObject:
@@ -7206,7 +7390,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1389441589}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.7535099
+  m_Size: 0.7220791
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -7474,7 +7658,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
   claimButton: {fileID: 783831514}
   claimText: {fileID: 1675698173}
 --- !u!1 &837075540
@@ -7781,7 +7964,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
   claimButton: {fileID: 848991169}
   claimText: {fileID: 98379944}
 --- !u!1 &907949224
@@ -7930,7 +8112,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
   claimButton: {fileID: 907949226}
   claimText: {fileID: 1183235153}
 --- !u!1 &926780329
@@ -7965,10 +8146,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.031805687, y: 0.089}
-  m_AnchorMax: {x: 0.68980575, y: 0.14400001}
-  m_AnchoredPosition: {x: 0.2362976, y: 0.43310547}
-  m_SizeDelta: {x: -0.47265625, y: 1.042511}
+  m_AnchorMin: {x: 0.031805687, y: 0.12613511}
+  m_AnchorMax: {x: 0.68980575, y: 0.1811351}
+  m_AnchoredPosition: {x: 0.2362976, y: 0.29083252}
+  m_SizeDelta: {x: -0.47265625, y: -0.19366455}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &926780331
 MonoBehaviour:
@@ -8003,7 +8184,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sube un Personaje a Nivel 8
+  m_Text: Sube un Personaje a Nivel 6
 --- !u!222 &926780332
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8541,7 +8722,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
   claimButton: {fileID: 988277384}
   claimText: {fileID: 1856493268}
 --- !u!1 &1010729929
@@ -8769,7 +8949,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
   claimButton: {fileID: 1011585866}
   claimText: {fileID: 1877676923}
 --- !u!1 &1012150855
@@ -8804,10 +8983,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.031805687, y: 0.38750836}
-  m_AnchorMax: {x: 0.68980575, y: 0.46500003}
-  m_AnchoredPosition: {x: -0.2362976, y: -1.223877}
-  m_SizeDelta: {x: -0.4727, y: 1.3386307}
+  m_AnchorMin: {x: 0.031805687, y: 0.41043246}
+  m_AnchorMax: {x: 0.68980575, y: 0.48727927}
+  m_AnchoredPosition: {x: -0.2362976, y: -0.32824707}
+  m_SizeDelta: {x: -0.47270012, y: -0.40306854}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1012150857
 MonoBehaviour:
@@ -8997,7 +9176,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
   claimButton: {fileID: 1015981511}
   claimText: {fileID: 234378138}
 --- !u!1 &1045302715
@@ -9032,10 +9210,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.031805687, y: 0.028887138}
-  m_AnchorMax: {x: 0.68980575, y: 0.089}
-  m_AnchoredPosition: {x: -0.23635864, y: -0.015075684}
-  m_SizeDelta: {x: -0.47265625, y: -1.265625}
+  m_AnchorMin: {x: 0.031805687, y: 0.0697117}
+  m_AnchorMax: {x: 0.68980575, y: 0.12613511}
+  m_AnchoredPosition: {x: -0.23635864, y: 0.1362915}
+  m_SizeDelta: {x: -0.47265625, y: -0.61676025}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1045302717
 MonoBehaviour:
@@ -9070,7 +9248,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sube un Personaje a Nivel 10
+  m_Text: Sube un Personaje a Nivel 8
 --- !u!222 &1045302718
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9590,7 +9768,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
   claimButton: {fileID: 1153369975}
   claimText: {fileID: 1442742124}
 --- !u!1 &1181279296
@@ -9739,7 +9916,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
   claimButton: {fileID: 1181279298}
   claimText: {fileID: 714895791}
 --- !u!1 &1183235151
@@ -10069,7 +10245,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
   claimButton: {fileID: 1201975252}
   claimText: {fileID: 400947900}
 --- !u!1 &1203321926
@@ -10159,7 +10334,7 @@ GameObject:
   - component: {fileID: 1255787256}
   - component: {fileID: 1255787255}
   - component: {fileID: 1255787254}
-  - component: {fileID: 1255787253}
+  - component: {fileID: 1255787257}
   m_Layer: 5
   m_Name: Mision10Btn
   m_TagString: Untagged
@@ -10182,26 +10357,11 @@ RectTransform:
   - {fileID: 473091482}
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.72680575, y: 0.268}
-  m_AnchorMax: {x: 0.9726114, y: 0.319}
-  m_AnchoredPosition: {x: 1.4094849, y: -1.831604}
-  m_SizeDelta: {x: 2.8190994, y: 3.5855713}
+  m_AnchorMin: {x: 0.72680575, y: 0.294}
+  m_AnchorMax: {x: 0.97742623, y: 0.34714416}
+  m_AnchoredPosition: {x: 0.40948486, y: -0.45220947}
+  m_SizeDelta: {x: 0.8190994, y: 1.4393005}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1255787253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1255787251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
-  claimButton: {fileID: 1255787254}
-  claimText: {fileID: 473091483}
 --- !u!114 &1255787254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10246,9 +10406,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1255787253}
-        m_TargetAssemblyTypeName: LevelSystem, Assembly-CSharp
-        m_MethodName: Nivel9
+      - m_Target: {fileID: 1255787257}
+        m_TargetAssemblyTypeName: Misiones, Assembly-CSharp
+        m_MethodName: Mision10
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10296,6 +10456,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1255787251}
   m_CullTransparentMesh: 1
+--- !u!114 &1255787257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255787251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9c0eccaaa7ef364989b639e8e9b2144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  claimButton: {fileID: 1255787254}
+  claimText: {fileID: 473091483}
 --- !u!1 &1282018506
 GameObject:
   m_ObjectHideFlags: 0
@@ -10328,10 +10502,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.031805687, y: 0.20400001}
-  m_AnchorMax: {x: 0.68980575, y: 0.25831684}
-  m_AnchoredPosition: {x: 0.23632812, y: 0.2786255}
-  m_SizeDelta: {x: -0.47265625, y: 1.5019836}
+  m_AnchorMin: {x: 0.031805687, y: 0.23556755}
+  m_AnchorMax: {x: 0.68980575, y: 0.294}
+  m_AnchoredPosition: {x: 0.23632812, y: -0.44067383}
+  m_SizeDelta: {x: -0.47265625, y: -1.7188416}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1282018508
 MonoBehaviour:
@@ -10466,7 +10640,7 @@ GameObject:
   - component: {fileID: 1332097739}
   - component: {fileID: 1332097738}
   - component: {fileID: 1332097737}
-  - component: {fileID: 1332097736}
+  - component: {fileID: 1332097740}
   m_Layer: 5
   m_Name: Mision4Btn
   m_TagString: Untagged
@@ -10489,26 +10663,11 @@ RectTransform:
   - {fileID: 203046776}
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.72680575, y: 0.64274657}
-  m_AnchorMax: {x: 0.9726114, y: 0.6997606}
-  m_AnchoredPosition: {x: 0.8015137, y: -0.9566345}
-  m_SizeDelta: {x: 2.81913, y: 0.2625885}
+  m_AnchorMin: {x: 0.72200006, y: 0.65756756}
+  m_AnchorMax: {x: 0.97742623, y: 0.7108559}
+  m_AnchoredPosition: {x: 0.8015137, y: -0.5676575}
+  m_SizeDelta: {x: -1.18087, y: 0.9811249}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1332097736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1332097734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
-  claimButton: {fileID: 1332097737}
-  claimText: {fileID: 203046777}
 --- !u!114 &1332097737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10553,9 +10712,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1332097736}
-        m_TargetAssemblyTypeName: LevelSystem, Assembly-CSharp
-        m_MethodName: Nivel4
+      - m_Target: {fileID: 1332097740}
+        m_TargetAssemblyTypeName: Misiones, Assembly-CSharp
+        m_MethodName: Mision4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10603,6 +10762,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1332097734}
   m_CullTransparentMesh: 1
+--- !u!114 &1332097740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332097734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9c0eccaaa7ef364989b639e8e9b2144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  claimButton: {fileID: 1332097737}
+  claimText: {fileID: 203046777}
 --- !u!1 &1334401274
 GameObject:
   m_ObjectHideFlags: 0
@@ -10975,8 +11148,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 649757561}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.2779209}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -11298,10 +11471,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.031805687, y: 0.527}
-  m_AnchorMax: {x: 0.68980575, y: 0.588}
-  m_AnchoredPosition: {x: -0.2362976, y: -1.8675537}
-  m_SizeDelta: {x: -0.47265625, y: -1.3392792}
+  m_AnchorMin: {x: 0.031805687, y: 0.5455676}
+  m_AnchorMax: {x: 0.68980575, y: 0.601}
+  m_AnchoredPosition: {x: -0.2362976, y: -0.42185974}
+  m_SizeDelta: {x: -0.47265625, y: 0.2896576}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1439699482
 MonoBehaviour:
@@ -11491,7 +11664,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
   claimButton: {fileID: 1441532199}
   claimText: {fileID: 1843666443}
 --- !u!1 &1442742122
@@ -11652,6 +11824,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1452307373}
   m_CullTransparentMesh: 1
+--- !u!1 &1494857210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1494857211}
+  - component: {fileID: 1494857213}
+  - component: {fileID: 1494857212}
+  m_Layer: 5
+  m_Name: Mision15Txt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1494857211
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494857210}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 736527357}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.031805687, y: 0.014}
+  m_AnchorMax: {x: 0.68980575, y: 0.0697117}
+  m_AnchoredPosition: {x: -0.23635864, y: 0.18359375}
+  m_SizeDelta: {x: -0.47265625, y: -0.61676025}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1494857212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494857210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: fc6cd572cfe6bf44db2cc5c0fb7aaa46, type: 3}
+    m_FontSize: 16
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Sube un Personaje a Nivel 10
+--- !u!222 &1494857213
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494857210}
+  m_CullTransparentMesh: 1
 --- !u!1 &1502590604
 GameObject:
   m_ObjectHideFlags: 0
@@ -11684,10 +11935,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.031805687, y: 0.5775084}
-  m_AnchorMax: {x: 0.68980575, y: 0.64274657}
-  m_AnchoredPosition: {x: -0.2362976, y: 0.95043945}
-  m_SizeDelta: {x: -0.47265625, y: -2.508728}
+  m_AnchorMin: {x: 0.031805687, y: 0.601}
+  m_AnchorMax: {x: 0.68980575, y: 0.65756756}
+  m_AnchoredPosition: {x: -0.2362976, y: -0.7867279}
+  m_SizeDelta: {x: -0.47265625, y: 1.0249634}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1502590606
 MonoBehaviour:
@@ -11877,7 +12128,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
   claimButton: {fileID: 1502696691}
   claimText: {fileID: 339784196}
 --- !u!1 &1525139119
@@ -11892,7 +12142,7 @@ GameObject:
   - component: {fileID: 1525139124}
   - component: {fileID: 1525139123}
   - component: {fileID: 1525139122}
-  - component: {fileID: 1525139121}
+  - component: {fileID: 1525139125}
   m_Layer: 5
   m_Name: Mision12Btn
   m_TagString: Untagged
@@ -11915,26 +12165,11 @@ RectTransform:
   - {fileID: 7130296}
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.72680575, y: 0.14400001}
-  m_AnchorMax: {x: 0.9726114, y: 0.20400001}
-  m_AnchoredPosition: {x: 1.4094849, y: -0.13482666}
-  m_SizeDelta: {x: 2.8190994, y: -1.7277527}
+  m_AnchorMin: {x: 0.72680575, y: 0.1811351}
+  m_AnchorMax: {x: 0.97742623, y: 0.23556755}
+  m_AnchoredPosition: {x: 0.40948486, y: 0.038024902}
+  m_SizeDelta: {x: 0.8190994, y: -0.07632446}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1525139121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1525139119}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
-  claimButton: {fileID: 1525139122}
-  claimText: {fileID: 7130297}
 --- !u!114 &1525139122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11979,9 +12214,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1525139121}
-        m_TargetAssemblyTypeName: LevelSystem, Assembly-CSharp
-        m_MethodName: Nivel9
+      - m_Target: {fileID: 1525139125}
+        m_TargetAssemblyTypeName: Misiones, Assembly-CSharp
+        m_MethodName: Mision12
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12029,6 +12264,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1525139119}
   m_CullTransparentMesh: 1
+--- !u!114 &1525139125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1525139119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9c0eccaaa7ef364989b639e8e9b2144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  claimButton: {fileID: 1525139122}
+  claimText: {fileID: 7130297}
 --- !u!1 &1534460498
 GameObject:
   m_ObjectHideFlags: 0
@@ -13654,7 +13903,7 @@ GameObject:
   - component: {fileID: 1610285874}
   - component: {fileID: 1610285873}
   - component: {fileID: 1610285872}
-  - component: {fileID: 1610285871}
+  - component: {fileID: 1610285875}
   m_Layer: 5
   m_Name: Mision2Btn
   m_TagString: Untagged
@@ -13677,26 +13926,11 @@ RectTransform:
   - {fileID: 1564373958}
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.72680575, y: 0.758}
-  m_AnchorMax: {x: 0.9726114, y: 0.81600004}
-  m_AnchoredPosition: {x: 0.37799072, y: -1.1365051}
-  m_SizeDelta: {x: 2.81913, y: 0.08773804}
+  m_AnchorMin: {x: 0.72200006, y: 0.7654234}
+  m_AnchorMax: {x: 0.97742623, y: 0.82342345}
+  m_AnchoredPosition: {x: 0.37799072, y: -0.34906006}
+  m_SizeDelta: {x: -1.18087, y: -1.2158813}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1610285871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1610285869}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
-  claimButton: {fileID: 1610285872}
-  claimText: {fileID: 1564373959}
 --- !u!114 &1610285872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13741,9 +13975,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1610285871}
-        m_TargetAssemblyTypeName: LevelSystem, Assembly-CSharp
-        m_MethodName: Nivel2
+      - m_Target: {fileID: 1610285875}
+        m_TargetAssemblyTypeName: Misiones, Assembly-CSharp
+        m_MethodName: Mision2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13791,6 +14025,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1610285869}
   m_CullTransparentMesh: 1
+--- !u!114 &1610285875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610285869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9c0eccaaa7ef364989b639e8e9b2144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  claimButton: {fileID: 1610285872}
+  claimText: {fileID: 1564373959}
 --- !u!1 &1618920489
 GameObject:
   m_ObjectHideFlags: 0
@@ -13937,7 +14185,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
   claimButton: {fileID: 1618920491}
   claimText: {fileID: 482717764}
 --- !u!1 &1621766674
@@ -14086,7 +14333,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
   claimButton: {fileID: 1621766676}
   claimText: {fileID: 199227991}
 --- !u!1 &1672240403
@@ -14121,10 +14367,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.031805687, y: 0.758}
-  m_AnchorMax: {x: 0.68980575, y: 0.81600004}
-  m_AnchoredPosition: {x: -0.2362976, y: -0.53652954}
-  m_SizeDelta: {x: -0.47265625, y: 1.087738}
+  m_AnchorMin: {x: 0.031805687, y: 0.7654234}
+  m_AnchorMax: {x: 0.68980575, y: 0.82342345}
+  m_AnchoredPosition: {x: -0.2362976, y: 0.25091553}
+  m_SizeDelta: {x: -0.47265625, y: -0.21588135}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1672240405
 MonoBehaviour:
@@ -14472,7 +14718,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
   claimButton: {fileID: 1730498528}
   claimText: {fileID: 706539541}
 --- !u!1 &1735694566
@@ -14645,7 +14890,7 @@ GameObject:
   - component: {fileID: 1782169364}
   - component: {fileID: 1782169363}
   - component: {fileID: 1782169362}
-  - component: {fileID: 1782169361}
+  - component: {fileID: 1782169365}
   m_Layer: 5
   m_Name: Mision14Btn
   m_TagString: Untagged
@@ -14668,26 +14913,11 @@ RectTransform:
   - {fileID: 502329494}
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.72680575, y: 0.028887138}
-  m_AnchorMax: {x: 0.9726114, y: 0.089}
-  m_AnchoredPosition: {x: 1.4094849, y: -0.19403076}
-  m_SizeDelta: {x: 2.8190994, y: -1.265625}
+  m_AnchorMin: {x: 0.72680575, y: 0.0697117}
+  m_AnchorMax: {x: 0.98224103, y: 0.12613511}
+  m_AnchoredPosition: {x: -0.59051514, y: -0.042663574}
+  m_SizeDelta: {x: -1.1809006, y: -0.61676025}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1782169361
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1782169359}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
-  claimButton: {fileID: 1782169362}
-  claimText: {fileID: 502329495}
 --- !u!114 &1782169362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14732,9 +14962,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1782169361}
-        m_TargetAssemblyTypeName: LevelSystem, Assembly-CSharp
-        m_MethodName: Nivel9
+      - m_Target: {fileID: 1782169365}
+        m_TargetAssemblyTypeName: Misiones, Assembly-CSharp
+        m_MethodName: Mision14
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14782,6 +15012,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1782169359}
   m_CullTransparentMesh: 1
+--- !u!114 &1782169365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782169359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9c0eccaaa7ef364989b639e8e9b2144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  claimButton: {fileID: 1782169362}
+  claimText: {fileID: 502329495}
 --- !u!1 &1810711541
 GameObject:
   m_ObjectHideFlags: 0
@@ -16618,7 +16862,6 @@ GameObject:
   - component: {fileID: 1968719827}
   - component: {fileID: 1968719826}
   - component: {fileID: 1968719825}
-  - component: {fileID: 1968719824}
   m_Layer: 5
   m_Name: SalirBtn
   m_TagString: Untagged
@@ -16643,24 +16886,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.031805687, y: 0.92200005}
   m_AnchorMax: {x: 0.15640742, y: 0.9738643}
-  m_AnchoredPosition: {x: 0.32000732, y: 0.6218872}
-  m_SizeDelta: {x: -1.4698029, y: -0.31121826}
+  m_AnchoredPosition: {x: 0.32000732, y: 1.7922058}
+  m_SizeDelta: {x: -1.4698029, y: -1.4768982}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1968719824
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1968719822}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 130062001}
-  claimButton: {fileID: 0}
-  claimText: {fileID: 0}
 --- !u!114 &1968719825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16705,10 +16933,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1968719824}
-        m_TargetAssemblyTypeName: LevelSystem, Assembly-CSharp
-        m_MethodName: CloseLevelSystem
-        m_Mode: 1
+      - m_Target: {fileID: 130062001}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -16846,7 +17074,7 @@ GameObject:
   - component: {fileID: 2023654118}
   - component: {fileID: 2023654117}
   - component: {fileID: 2023654116}
-  - component: {fileID: 2023654115}
+  - component: {fileID: 2023654119}
   m_Layer: 5
   m_Name: Mision1Btn
   m_TagString: Untagged
@@ -16869,26 +17097,11 @@ RectTransform:
   - {fileID: 1452307374}
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.72680575, y: 0.81600004}
-  m_AnchorMax: {x: 0.9726114, y: 0.873}
-  m_AnchoredPosition: {x: 0.3779297, y: 0.05003357}
-  m_SizeDelta: {x: 2.81913, y: 0.10739136}
+  m_AnchorMin: {x: 0.72200006, y: 0.82342345}
+  m_AnchorMax: {x: 0.97742623, y: 0.8767117}
+  m_AnchoredPosition: {x: 0.3779297, y: 0.54512024}
+  m_SizeDelta: {x: -1.18087, y: 0.8262634}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2023654115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2023654113}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
-  claimButton: {fileID: 2023654116}
-  claimText: {fileID: 1452307375}
 --- !u!114 &2023654116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16933,9 +17146,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2023654115}
-        m_TargetAssemblyTypeName: LevelSystem, Assembly-CSharp
-        m_MethodName: Nivel1
+      - m_Target: {fileID: 2023654119}
+        m_TargetAssemblyTypeName: Misiones, Assembly-CSharp
+        m_MethodName: Mision1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16983,6 +17196,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2023654113}
   m_CullTransparentMesh: 1
+--- !u!114 &2023654119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023654113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9c0eccaaa7ef364989b639e8e9b2144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  claimButton: {fileID: 2023654116}
+  claimText: {fileID: 1452307375}
 --- !u!1 &2028625692
 GameObject:
   m_ObjectHideFlags: 0
@@ -17063,7 +17290,7 @@ GameObject:
   - component: {fileID: 2052642420}
   - component: {fileID: 2052642419}
   - component: {fileID: 2052642418}
-  - component: {fileID: 2052642417}
+  - component: {fileID: 2052642421}
   m_Layer: 5
   m_Name: Mision3Btn
   m_TagString: Untagged
@@ -17086,26 +17313,11 @@ RectTransform:
   - {fileID: 660907124}
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.72680575, y: 0.6997606}
-  m_AnchorMax: {x: 0.9726114, y: 0.758}
-  m_AnchoredPosition: {x: 0.8015137, y: -0.9066162}
-  m_SizeDelta: {x: 2.81913, y: -0.3945923}
+  m_AnchorMin: {x: 0.72200006, y: 0.7108559}
+  m_AnchorMax: {x: 0.97742623, y: 0.7654234}
+  m_AnchoredPosition: {x: 0.8015137, y: 0.18713379}
+  m_SizeDelta: {x: -1.18087, y: 0.29641724}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2052642417
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2052642415}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49f739ea9215fb14d91eb7ed98c7a201, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
-  claimButton: {fileID: 2052642418}
-  claimText: {fileID: 660907125}
 --- !u!114 &2052642418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17150,9 +17362,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2052642417}
-        m_TargetAssemblyTypeName: LevelSystem, Assembly-CSharp
-        m_MethodName: Nivel3
+      - m_Target: {fileID: 2052642421}
+        m_TargetAssemblyTypeName: Misiones, Assembly-CSharp
+        m_MethodName: Mision3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17200,6 +17412,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2052642415}
   m_CullTransparentMesh: 1
+--- !u!114 &2052642421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052642415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9c0eccaaa7ef364989b639e8e9b2144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  claimButton: {fileID: 2052642418}
+  claimText: {fileID: 660907125}
 --- !u!1 &2111762382
 GameObject:
   m_ObjectHideFlags: 0
@@ -17282,17 +17508,17 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: LevelSystem, Assembly-CSharp
-        m_MethodName: OpenLevelSystem
-        m_Mode: 1
+      - m_Target: {fileID: 130062001}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &2111762385
 MonoBehaviour:
@@ -17364,10 +17590,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.30800003, y: 0.9024917}
-  m_AnchorMax: {x: 0.697, y: 0.96300006}
-  m_AnchoredPosition: {x: 0, y: -0.29263306}
-  m_SizeDelta: {x: -2, y: -1.1651611}
+  m_AnchorMin: {x: 0.31040743, y: 0.90800005}
+  m_AnchorMax: {x: 0.69459265, y: 0.9648559}
+  m_AnchoredPosition: {x: 0, y: -0.7810669}
+  m_SizeDelta: {x: 0, y: -0.5251465}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2118027919
 MonoBehaviour:
@@ -17429,7 +17655,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2122092944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17545,10 +17771,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 736527357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.031805687, y: 0.81600004}
-  m_AnchorMax: {x: 0.68980575, y: 0.873}
-  m_AnchoredPosition: {x: -0.2362976, y: -0.3699646}
-  m_SizeDelta: {x: -0.47265625, y: -0.89260864}
+  m_AnchorMin: {x: 0.031805687, y: 0.82342345}
+  m_AnchorMax: {x: 0.68980575, y: 0.8767117}
+  m_AnchoredPosition: {x: -0.2362976, y: 0.12512207}
+  m_SizeDelta: {x: -0.47265625, y: -0.17373657}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2138772662
 MonoBehaviour:

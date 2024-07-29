@@ -20,7 +20,7 @@ public class MisionsManager : MonoBehaviour
     public static bool Nivel8;
     public static bool Nivel10;
 
-    private void Start()
+    /*private void Start()
     {
         Expansion1 = false;
         Expansion2 = false;
@@ -37,5 +37,5 @@ public class MisionsManager : MonoBehaviour
         Nivel6 = false;
         Nivel8 = false;
         Nivel10 = false;
-    }
+    }*/
 }

@@ -12,7 +12,13 @@ public class LootTable : ScriptableObject
         public string itemName;
         public float weight;
         public Sprite sprite;
-        // your item stats go here
+        [System.NonSerialized] private bool isObtained;
+
+        public bool IsObtained
+        {
+            get { return isObtained; }
+            set { isObtained = value; }
+        }
     }
 
     // This list is populated from the editor

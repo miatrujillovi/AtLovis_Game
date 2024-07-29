@@ -5,19 +5,8 @@ using UnityEngine.UI;
 
 public class LevelSystem : MonoBehaviour
 {
-    public GameObject canvas;
     public Button claimButton;
     public Text claimText;
-
-    public void OpenLevelSystem()
-    {
-        canvas.SetActive(true);
-    }
-
-    public void CloseLevelSystem()
-    {
-        canvas.SetActive(false);
-    }
 
     public void Nivel1()
     {
