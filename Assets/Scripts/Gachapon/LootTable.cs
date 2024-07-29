@@ -21,12 +21,7 @@ public class LootTable : ScriptableObject
         }
     }
 
-    // This list is populated from the editor
-    [SerializeField] private List<RewardItem> _items;
-
-    // This is NonSerialized as we need it false everytime we run the game.
-    // Without this tag, once set to true it will be true even after closing and restarting the game
-    // Which means any future modification of our item list is not properly considered
+    [SerializeField] public List<RewardItem> _items;
     [System.NonSerialized] private bool isInitialized = false;
 
     private float _totalWeight;
