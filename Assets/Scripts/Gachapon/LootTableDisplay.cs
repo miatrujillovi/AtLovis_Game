@@ -52,6 +52,7 @@ public class LootTableDisplay : MonoBehaviour
                 {
                     Debug.Log("Asignando sprite: " + randomItem.sprite.name);
                     itemImage.sprite = randomItem.sprite;
+                    Debug.Log("Se asigno el sprite exitosamente");
                 }
                 else
                 {
