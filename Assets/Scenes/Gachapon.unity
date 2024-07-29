@@ -1941,6 +1941,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LootItemUI1
       objectReference: {fileID: 0}
+    - target: {fileID: 3646145809139732563, guid: f98bdde5d497edf46a8bc0e618c36bf5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8396780646168248230, guid: f98bdde5d497edf46a8bc0e618c36bf5, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

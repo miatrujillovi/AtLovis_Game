@@ -17,10 +17,10 @@ public class TimerManager : MonoBehaviour
 
     void Start()
     {
-        GlobalVariableManager.activeDecoracion = decoraciones;
+        /*GlobalVariableManager.activeDecoracion = decoraciones;
         GlobalVariableManager.activeExpansion = expansion;
         GlobalVariableManager.activeCharacter = character;
-        GlobalVariableManager.activeClients = clients;
+        GlobalVariableManager.activeClients = clients;*/
         StartCoroutine(Countdown());
     }
 

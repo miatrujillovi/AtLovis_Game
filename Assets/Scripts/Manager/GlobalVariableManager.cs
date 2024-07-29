@@ -12,11 +12,20 @@ public class GlobalVariableManager : MonoBehaviour
     public static bool activeOrder;
     public static bool waitingTime;
     public static Button[] activeButtons;
+    public static int movementSpeed;
 
     //Variables de Mejoras de Tienda
-    public static GameObject activeExpansion;
-    public static GameObject activeDecoracion;
-    public static GameObject activeClients;
+    public static GameObject normalExpansion;
+    public static GameObject expansion1;
+    public static GameObject expansion2;
+    public static GameObject expansion3;
+    public static GameObject decoraciones1;
+    public static GameObject decoraciones2;
+    public static GameObject decoraciones3;
+    public static GameObject activeClientsNormal;
+    public static GameObject activeClientsExpansion1;
+    public static GameObject activeClientsExpansion2;
+    public static GameObject activeClientsExpansion3;
 
     public static int[] earnedPropina;
     public static int[] earnedExperiencia;
@@ -40,6 +49,10 @@ public class GlobalVariableManager : MonoBehaviour
         activeOrder = false;
         waitingTime = false;
         activeButtons = GameObject.FindObjectsOfType<Button>();
+        movementSpeed = 15;
+        extraExpDecoraciones = new int[] { 0, 0, 0, 0 };
+        earnedPropina = new int[] { 5, 10, 15, 20 };
+        earnedExperiencia = new int[] { 5, 10, 15, 20 };
     }
 
 }

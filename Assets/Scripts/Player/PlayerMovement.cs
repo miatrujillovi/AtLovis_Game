@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
 
         if(IsWalkable(targetPosition))
         {
-            transform.position = Vector3.MoveTowards(transform.position, targetPosition, Time.deltaTime * 15);
+            transform.position = Vector3.MoveTowards(transform.position, targetPosition, Time.deltaTime * GlobalVariableManager.movementSpeed);
         }
     }
 
