@@ -33,12 +33,21 @@ public class GlobalVariableManager : MonoBehaviour
 
     //Variables de Personaje
     public static GameObject activeCharacter;
+    public static GameObject charAerith;
+    public static GameObject charFlandre;
+    public static GameObject charGoldmary;
+    public static GameObject charHeidr;
+    public static GameObject charEllen;
+    public static GameObject charKotone;
+    public static GameObject charNezuko;
+    public static GameObject charShinobu;
+    public static GameObject charYuliya;
 
     //Variables de Inventario
     public static int clientesAtendidos;
     public static float propinaInventory;
     public static float experienciaInventory;
-    public static float starsInventory = 100;
+    public static float starsInventory;
     public static int levelNumber;
     public static int stars;
 
@@ -53,6 +62,7 @@ public class GlobalVariableManager : MonoBehaviour
         extraExpDecoraciones = new int[] { 0, 0, 0, 0 };
         earnedPropina = new int[] { 5, 10, 15, 20 };
         earnedExperiencia = new int[] { 5, 10, 15, 20 };
+        activeCharacter = charYuliya;
     }
 
 }

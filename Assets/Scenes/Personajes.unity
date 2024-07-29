@@ -1888,7 +1888,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 214166856}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 66336917}
+        m_TargetAssemblyTypeName: CharacterManager, Assembly-CSharp
+        m_MethodName: HeidrSelect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &214166856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3140,8 +3152,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1491502968}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.31138223}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -4566,7 +4578,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 489996071}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 66336917}
+        m_TargetAssemblyTypeName: CharacterManager, Assembly-CSharp
+        m_MethodName: KotoneSelect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &489996071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4933,7 +4957,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 548197890}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 66336917}
+        m_TargetAssemblyTypeName: CharacterManager, Assembly-CSharp
+        m_MethodName: FlandreSelect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &548197890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7217,7 +7253,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &867701238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7383,7 +7419,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 868167804}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 867701237}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1156741908}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &868167804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7580,10 +7640,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1770390977}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 66336917}
+        m_TargetAssemblyTypeName: CharacterManager, Assembly-CSharp
+        m_MethodName: AerithSelect
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -9303,7 +9363,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1073235528}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 66336917}
+        m_TargetAssemblyTypeName: CharacterManager, Assembly-CSharp
+        m_MethodName: ShinobuSelect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1073235528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9424,7 +9496,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1082618717}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 66336917}
+        m_TargetAssemblyTypeName: CharacterManager, Assembly-CSharp
+        m_MethodName: GoldmarySelect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1082618717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10243,7 +10327,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1156741909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11454,6 +11538,7 @@ GameObject:
   - component: {fileID: 1259174924}
   - component: {fileID: 1259174923}
   - component: {fileID: 1259174922}
+  - component: {fileID: 1259174925}
   m_Layer: 5
   m_Name: PopUpBTN
   m_TagString: Untagged
@@ -11524,7 +11609,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1259174923}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1259174925}
+        m_TargetAssemblyTypeName: CharLevelUp, Assembly-CSharp
+        m_MethodName: LevelUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1259174925}
+        m_TargetAssemblyTypeName: CharLevelUp, Assembly-CSharp
+        m_MethodName: ActivarCarisma
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1259174925}
+        m_TargetAssemblyTypeName: CharLevelUp, Assembly-CSharp
+        m_MethodName: ActivarVelocidad
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1259174923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11563,6 +11684,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1259174920}
   m_CullTransparentMesh: 1
+--- !u!114 &1259174925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259174920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbb948acc440b34a946f37f967eb4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: Yuliya
+  levelUpButton: {fileID: 1532447885}
+  popUpImage: {fileID: 1428992336}
+  popUpTextWarning: {fileID: 485528744}
+  confirmTxt: {fileID: 1892261488}
+  levelnumberTxt: {fileID: 794798232}
+  talentoCarisma: {fileID: 1361726284}
+  talentoVelocidad: {fileID: 1772781431}
+  activeTalent: {fileID: 21300000, guid: 34f6a6d853ae8b347948f5f460511b06, type: 3}
 --- !u!1 &1269450716
 GameObject:
   m_ObjectHideFlags: 0
@@ -12538,6 +12680,7 @@ GameObject:
   - component: {fileID: 1361726286}
   - component: {fileID: 1361726285}
   - component: {fileID: 1361726284}
+  - component: {fileID: 1361726287}
   m_Layer: 5
   m_Name: ActivarCarismaBTN
   m_TagString: Untagged
@@ -12607,7 +12750,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1361726285}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1361726287}
+        m_TargetAssemblyTypeName: CharLevelUp, Assembly-CSharp
+        m_MethodName: TalentoCarismaPopUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1361726285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12646,6 +12801,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1361726282}
   m_CullTransparentMesh: 1
+--- !u!114 &1361726287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361726282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbb948acc440b34a946f37f967eb4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: Yuliya
+  levelUpButton: {fileID: 1532447885}
+  popUpImage: {fileID: 1428992336}
+  popUpTextWarning: {fileID: 485528744}
+  confirmTxt: {fileID: 1892261488}
+  levelnumberTxt: {fileID: 794798232}
+  talentoCarisma: {fileID: 1361726284}
+  talentoVelocidad: {fileID: 1772781431}
+  activeTalent: {fileID: 21300000, guid: 34f6a6d853ae8b347948f5f460511b06, type: 3}
 --- !u!1 &1373469245
 GameObject:
   m_ObjectHideFlags: 0
@@ -12733,6 +12909,7 @@ GameObject:
   - component: {fileID: 1382771131}
   - component: {fileID: 1382771130}
   - component: {fileID: 1382771129}
+  - component: {fileID: 1382771132}
   m_Layer: 5
   m_Name: SeleccionarBtn
   m_TagString: Untagged
@@ -12803,7 +12980,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1382771130}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1382771132}
+        m_TargetAssemblyTypeName: CharLevelUp, Assembly-CSharp
+        m_MethodName: SelectCharacter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1382771130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12842,6 +13031,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1382771127}
   m_CullTransparentMesh: 1
+--- !u!114 &1382771132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382771127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbb948acc440b34a946f37f967eb4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: Yuliya
+  levelUpButton: {fileID: 1532447885}
+  popUpImage: {fileID: 1428992336}
+  popUpTextWarning: {fileID: 485528744}
+  confirmTxt: {fileID: 1892261488}
+  levelnumberTxt: {fileID: 794798232}
+  talentoCarisma: {fileID: 1361726284}
+  talentoVelocidad: {fileID: 1772781431}
+  activeTalent: {fileID: 21300000, guid: 34f6a6d853ae8b347948f5f460511b06, type: 3}
 --- !u!1 &1383690491
 GameObject:
   m_ObjectHideFlags: 0
@@ -13470,9 +13680,9 @@ RectTransform:
   m_Father: {fileID: 1773900598}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -17, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1444677650
 MonoBehaviour:
@@ -13930,6 +14140,7 @@ GameObject:
   - component: {fileID: 1532447887}
   - component: {fileID: 1532447886}
   - component: {fileID: 1532447885}
+  - component: {fileID: 1532447888}
   m_Layer: 5
   m_Name: LevelUpBTN
   m_TagString: Untagged
@@ -13999,7 +14210,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1532447886}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1532447888}
+        m_TargetAssemblyTypeName: CharLevelUp, Assembly-CSharp
+        m_MethodName: LevelUpPopUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1532447886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14038,6 +14261,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1532447883}
   m_CullTransparentMesh: 1
+--- !u!114 &1532447888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532447883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbb948acc440b34a946f37f967eb4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: Yuliya
+  levelUpButton: {fileID: 1532447885}
+  popUpImage: {fileID: 1428992336}
+  popUpTextWarning: {fileID: 485528744}
+  confirmTxt: {fileID: 1892261488}
+  levelnumberTxt: {fileID: 794798232}
+  talentoCarisma: {fileID: 1361726284}
+  talentoVelocidad: {fileID: 1772781431}
+  activeTalent: {fileID: 21300000, guid: 34f6a6d853ae8b347948f5f460511b06, type: 3}
 --- !u!1 &1533232759
 GameObject:
   m_ObjectHideFlags: 0
@@ -15154,7 +15398,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1629650370}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 66336917}
+        m_TargetAssemblyTypeName: CharacterManager, Assembly-CSharp
+        m_MethodName: EllenSelect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1629650370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16414,6 +16670,7 @@ GameObject:
   - component: {fileID: 1772781433}
   - component: {fileID: 1772781432}
   - component: {fileID: 1772781431}
+  - component: {fileID: 1772781434}
   m_Layer: 5
   m_Name: ActivarVelocidadBTN
   m_TagString: Untagged
@@ -16483,7 +16740,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1772781432}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1772781434}
+        m_TargetAssemblyTypeName: CharLevelUp, Assembly-CSharp
+        m_MethodName: TalentoVelocidadPopUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1772781432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16522,6 +16791,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1772781429}
   m_CullTransparentMesh: 1
+--- !u!114 &1772781434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772781429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbb948acc440b34a946f37f967eb4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: Yuliya
+  levelUpButton: {fileID: 1532447885}
+  popUpImage: {fileID: 1428992336}
+  popUpTextWarning: {fileID: 485528744}
+  confirmTxt: {fileID: 1892261488}
+  levelnumberTxt: {fileID: 794798232}
+  talentoCarisma: {fileID: 1361726284}
+  talentoVelocidad: {fileID: 1772781431}
+  activeTalent: {fileID: 21300000, guid: 34f6a6d853ae8b347948f5f460511b06, type: 3}
 --- !u!1 &1773900597
 GameObject:
   m_ObjectHideFlags: 0
@@ -17465,7 +17755,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1921704236}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 66336917}
+        m_TargetAssemblyTypeName: CharacterManager, Assembly-CSharp
+        m_MethodName: NezukoSelect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1921704236
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class StoreObjects : MonoBehaviour
 {
+    //Mejoras de Tienda
     public GameObject normalExpansion;
     public GameObject expansion1;
     public GameObject expansion2;
@@ -16,8 +17,20 @@ public class StoreObjects : MonoBehaviour
     public GameObject clients2;
     public GameObject clients3;
 
+    //Personajes
+    public GameObject aerith;
+    public GameObject flandre;
+    public GameObject goldmary;
+    public GameObject heidr;
+    public GameObject ellen;
+    public GameObject kotone;
+    public GameObject nezuko;
+    public GameObject shinobu;
+    public GameObject yuliya;
+
     private void Start()
     {
+        //Mejoras de Tienda
         normalExpansion = GlobalVariableManager.normalExpansion;
         expansion1 = GlobalVariableManager.expansion1;
         expansion2 = GlobalVariableManager.expansion2;
@@ -41,5 +54,26 @@ public class StoreObjects : MonoBehaviour
         DontDestroyOnLoad(clients1);
         DontDestroyOnLoad(clients2);
         DontDestroyOnLoad(clients3);
+
+        //Personajes
+        aerith = GlobalVariableManager.charAerith;
+        flandre = GlobalVariableManager.charFlandre;
+        goldmary = GlobalVariableManager.charGoldmary;
+        heidr = GlobalVariableManager.charHeidr;
+        ellen = GlobalVariableManager.charEllen;
+        kotone = GlobalVariableManager.charKotone;
+        nezuko = GlobalVariableManager.charNezuko;
+        shinobu = GlobalVariableManager.charShinobu;
+        yuliya = GlobalVariableManager.charYuliya;
+
+        DontDestroyOnLoad(aerith);
+        DontDestroyOnLoad(flandre);
+        DontDestroyOnLoad(goldmary);
+        DontDestroyOnLoad(heidr);
+        DontDestroyOnLoad(ellen);
+        DontDestroyOnLoad(kotone);
+        DontDestroyOnLoad(nezuko);
+        DontDestroyOnLoad(shinobu);
+        DontDestroyOnLoad(yuliya);
     }
 }

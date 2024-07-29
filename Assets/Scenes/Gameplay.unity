@@ -14646,7 +14646,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &967927585
 Transform:
   m_ObjectHideFlags: 0
@@ -26178,6 +26178,15 @@ MonoBehaviour:
   clients1: {fileID: 1144343997}
   clients2: {fileID: 868883714}
   clients3: {fileID: 360178906}
+  aerith: {fileID: 577882577}
+  flandre: {fileID: 1199844699}
+  goldmary: {fileID: 60655131}
+  heidr: {fileID: 1654213836}
+  ellen: {fileID: 170265461}
+  kotone: {fileID: 1352907167}
+  nezuko: {fileID: 447471301}
+  shinobu: {fileID: 96246567}
+  yuliya: {fileID: 967927584}
 --- !u!1 &1853337478
 GameObject:
   m_ObjectHideFlags: 0
