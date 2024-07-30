@@ -11,12 +11,14 @@ public class KitchenBtn : MonoBehaviour
 
     public void RecibeOrder()
     {
+        Debug.Log("Empieza a Cocinar");
         StartCoroutine(CookingTime(GlobalVariableManager.Time));
     }
 
     IEnumerator CookingTime(float _time)
     {
-        
+
+        Debug.Log("Cocinandoooo");
         Text kitchenBtnText = kitchenBtn.GetComponentInChildren<Text>();
         Button kitchenReadyButton = kitchenBtn.GetComponent<Button>();
 
@@ -25,7 +27,7 @@ public class KitchenBtn : MonoBehaviour
 
         yield return new WaitForSeconds(_time);
 
-        Debug.Log("Se detiene la corrutina??");
+        Debug.Log("Termina de Cocinar");
         foodOnCounter[GlobalVariableManager.currentFood].SetActive(true); //Activa el Boton de la Comida Correspondiente
         kitchenBtnText.enabled = false;
         kitchenReadyButton.enabled = true;

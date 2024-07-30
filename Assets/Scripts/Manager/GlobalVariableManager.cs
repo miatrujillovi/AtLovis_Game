@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 using UnityEngine.UI;
 
 public class GlobalVariableManager : MonoBehaviour
@@ -33,15 +34,7 @@ public class GlobalVariableManager : MonoBehaviour
 
     //Variables de Personaje
     public static GameObject activeCharacter;
-    public static GameObject charAerith;
-    public static GameObject charFlandre;
-    public static GameObject charGoldmary;
-    public static GameObject charHeidr;
-    public static GameObject charEllen;
-    public static GameObject charKotone;
-    public static GameObject charNezuko;
-    public static GameObject charShinobu;
-    public static GameObject charYuliya;
+    public static bool[] characters;
 
     //Variables de Inventario
     public static int clientesAtendidos;
@@ -57,12 +50,13 @@ public class GlobalVariableManager : MonoBehaviour
         Time = 7f;
         activeOrder = false;
         waitingTime = false;
-        activeButtons = GameObject.FindObjectsOfType<Button>();
+        //activeButtons = GameObject.FindObjectsOfType<Button>();
         movementSpeed = 15;
         extraExpDecoraciones = new int[] { 0, 0, 0, 0 };
         earnedPropina = new int[] { 5, 10, 15, 20 };
         earnedExperiencia = new int[] { 5, 10, 15, 20 };
-        activeCharacter = charYuliya;
+        characters = new bool[8];
+        characters[0] = true;
     }
 
 }

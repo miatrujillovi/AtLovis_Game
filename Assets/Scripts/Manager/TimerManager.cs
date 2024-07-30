@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,38 +8,80 @@ public class TimerManager : MonoBehaviour
     public GameObject canvas;
     public Text propinaTxt;
     public Text experienciaTxt;
-    private GameObject character;
+    public GameObject[] character;
 
     void Start()
     {
+        if (GlobalVariableManager.characters[0] == true)
+        {
+            character[0].SetActive(true);
+        } 
+        else if (GlobalVariableManager.characters[1] == true)
+        {
+            character[1].SetActive(true);
+        }
+        else if (GlobalVariableManager.characters[2] == true)
+        {
+            character[2].SetActive(true);
+        }
+        else if (GlobalVariableManager.characters[3] == true)
+        {
+            character[3].SetActive(true);
+        }
+        else if (GlobalVariableManager.characters[4] == true)
+        {
+            character[4].SetActive(true);
+        }
+        else if (GlobalVariableManager.characters[5] == true)
+        {
+            character[5].SetActive(true);
+        }
+        else if (GlobalVariableManager.characters[6] == true)
+        {
+            character[6].SetActive(true);
+        }
+        else if (GlobalVariableManager.characters[7] == true)
+        {
+            character[7].SetActive(true);
+        }
+        else if (GlobalVariableManager.characters[8] == true)
+        {
+            character[8].SetActive(true);
+        }
+
         StartCoroutine(Countdown());
     }
 
     IEnumerator Countdown()
     {
-        GlobalVariableManager.activeCharacter = character;
-        character.SetActive(true);
-        yield return new WaitForSeconds(120);
+        Debug.Log("Corrutina Countdown iniciada");
 
-        //Variable de Mision General
-        if (MisionsManager.Servicio1 == false)
+        Debug.Log("Esperando 10 segundos...");
+        yield return new WaitForSeconds(10);
+
+        Debug.Log("10 segundos han pasado");
+        // Variable de Misión General
+        if (!MisionsManager.Servicio1)
         {
             MisionsManager.Servicio1 = true;
         }
-        manager.SetActive(false);
+
+        // manager.SetActive(false);
         canvas.SetActive(true);
+
         CalcularPropina();
         CalcularExperiencia();
-
     }
 
     private void CalcularPropina()
     {
+        Debug.Log("Calculando propina...");
+
         if (GlobalVariableManager.clientesAtendidos <= 3)
         {
             GlobalVariableManager.propinaInventory += GlobalVariableManager.earnedPropina[0];
             propinaTxt.text = $"Propina Ganada: {GlobalVariableManager.earnedPropina[0]}";
-        } 
+        }
         else if (GlobalVariableManager.clientesAtendidos <= 6)
         {
             GlobalVariableManager.propinaInventory += GlobalVariableManager.earnedPropina[1];
@@ -50,11 +91,10 @@ public class TimerManager : MonoBehaviour
         {
             GlobalVariableManager.propinaInventory += GlobalVariableManager.earnedPropina[2];
             propinaTxt.text = $"Propina Ganada: {GlobalVariableManager.earnedPropina[2]}";
-        } 
+        }
         else if (GlobalVariableManager.clientesAtendidos <= 16)
         {
-            //Variable de Mision General
-            if (MisionsManager.OnceClientes == false)
+            if (!MisionsManager.OnceClientes)
             {
                 MisionsManager.OnceClientes = true;
             }
@@ -65,21 +105,23 @@ public class TimerManager : MonoBehaviour
 
     private void CalcularExperiencia()
     {
+        Debug.Log("Calculando experiencia...");
+
         if (GlobalVariableManager.clientesAtendidos <= 3)
         {
             GlobalVariableManager.experienciaInventory += GlobalVariableManager.earnedExperiencia[0] + GlobalVariableManager.extraExpDecoraciones[0];
             experienciaTxt.text = $"Experiencia Ganada: {GlobalVariableManager.earnedExperiencia[0]}";
-        } 
+        }
         else if (GlobalVariableManager.clientesAtendidos <= 6)
         {
             GlobalVariableManager.experienciaInventory += GlobalVariableManager.earnedExperiencia[1] + GlobalVariableManager.extraExpDecoraciones[1];
             experienciaTxt.text = $"Experiencia Ganada: {GlobalVariableManager.earnedExperiencia[1]}";
-        } 
+        }
         else if (GlobalVariableManager.clientesAtendidos <= 10)
         {
             GlobalVariableManager.experienciaInventory += GlobalVariableManager.earnedExperiencia[2] + GlobalVariableManager.extraExpDecoraciones[2];
             experienciaTxt.text = $"Experiencia Ganada: {GlobalVariableManager.earnedExperiencia[2]}";
-        } 
+        }
         else if (GlobalVariableManager.clientesAtendidos <= 16)
         {
             GlobalVariableManager.experienciaInventory += GlobalVariableManager.earnedExperiencia[3] + GlobalVariableManager.extraExpDecoraciones[3];
@@ -87,3 +129,5 @@ public class TimerManager : MonoBehaviour
         }
     }
 }
+
+

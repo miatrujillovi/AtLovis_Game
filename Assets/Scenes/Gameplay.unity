@@ -3900,6 +3900,50 @@ MonoBehaviour:
   kitchenReady: {fileID: 1033868928}
   newFood: {fileID: 1806066235, guid: 7f7a616bef883ee4d99a9ecb21bedbbf, type: 3}
   oldFood: {fileID: -865389568, guid: b9a6cbc36682b0948a471d46eaab45a7, type: 3}
+--- !u!1 &325297318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 325297319}
+  - component: {fileID: 325297320}
+  m_Layer: 0
+  m_Name: GlobalVariableManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &325297319
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325297318}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1104222390}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &325297320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325297318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49e98b8e286c0ae46bf23ec453048af3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &329175563
 GameObject:
   m_ObjectHideFlags: 0
@@ -9145,50 +9189,6 @@ MonoBehaviour:
   - {fileID: 2050234231}
   - {fileID: 1114515110}
   - {fileID: 894716278}
---- !u!1 &710100766
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 710100767}
-  - component: {fileID: 710100768}
-  m_Layer: 0
-  m_Name: PersistentManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &710100767
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 710100766}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1104222390}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &710100768
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 710100766}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30ccda726c095834785f6a6238b03382, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &714216200
 GameObject:
   m_ObjectHideFlags: 0
@@ -12080,7 +12080,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &959125756
 Transform:
   m_ObjectHideFlags: 0
@@ -12112,6 +12112,16 @@ MonoBehaviour:
   canvas: {fileID: 1909005907}
   propinaTxt: {fileID: 1236222839}
   experienciaTxt: {fileID: 1724579577}
+  character:
+  - {fileID: 967927584}
+  - {fileID: 577882577}
+  - {fileID: 1199844699}
+  - {fileID: 60655131}
+  - {fileID: 1654213836}
+  - {fileID: 170265461}
+  - {fileID: 1352907167}
+  - {fileID: 447471301}
+  - {fileID: 96246567}
 --- !u!1 &960401270
 GameObject:
   m_ObjectHideFlags: 0
@@ -14646,7 +14656,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &967927585
 Transform:
   m_ObjectHideFlags: 0
@@ -15871,8 +15881,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 959125756}
-  - {fileID: 710100767}
-  - {fileID: 1850216781}
+  - {fileID: 325297319}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1109000536
@@ -26123,70 +26132,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &1850216780
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1850216781}
-  - component: {fileID: 1850216782}
-  m_Layer: 0
-  m_Name: StoreObjects
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1850216781
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1850216780}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1104222390}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1850216782
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1850216780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50ce47302fcd30d468ad0ea65949aad5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  normalExpansion: {fileID: 1607111814}
-  expansion1: {fileID: 1697608754}
-  expansion2: {fileID: 845443816}
-  expansion3: {fileID: 1144389680}
-  decoraciones1: {fileID: 772319636}
-  decoraciones2: {fileID: 1259490593}
-  decoraciones3: {fileID: 819088825}
-  clientsNormal: {fileID: 2045806431}
-  clients1: {fileID: 1144343997}
-  clients2: {fileID: 868883714}
-  clients3: {fileID: 360178906}
-  aerith: {fileID: 577882577}
-  flandre: {fileID: 1199844699}
-  goldmary: {fileID: 60655131}
-  heidr: {fileID: 1654213836}
-  ellen: {fileID: 170265461}
-  kotone: {fileID: 1352907167}
-  nezuko: {fileID: 447471301}
-  shinobu: {fileID: 96246567}
-  yuliya: {fileID: 967927584}
 --- !u!1 &1853337478
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 using UnityEngine.UI;
 
 public class CharLevelUp : MonoBehaviour
@@ -27,31 +28,67 @@ public class CharLevelUp : MonoBehaviour
         switch (character)
         {
             case "Yuliya":
-                GlobalVariableManager.activeCharacter = GlobalVariableManager.charYuliya;
+                for (int i = 0; i < GlobalVariableManager.characters.Length; i++)
+                {
+                    GlobalVariableManager.characters[i] = false;
+                }
+                GlobalVariableManager.characters[0] = true;
                 break;
             case "Aerith":
-                GlobalVariableManager.activeCharacter = GlobalVariableManager.charAerith;
+                for (int i = 0; i < GlobalVariableManager.characters.Length; i++)
+                {
+                    GlobalVariableManager.characters[i] = false;
+                }
+                GlobalVariableManager.characters[1] = true;
                 break;
             case "Flandre":
-                GlobalVariableManager.activeCharacter = GlobalVariableManager.charFlandre;
+                for (int i = 0; i < GlobalVariableManager.characters.Length; i++)
+                {
+                    GlobalVariableManager.characters[i] = false;
+                }
+                GlobalVariableManager.characters[2] = true;
                 break;
             case "Goldmary":
-                GlobalVariableManager.activeCharacter = GlobalVariableManager.charGoldmary;
+                for (int i = 0; i < GlobalVariableManager.characters.Length; i++)
+                {
+                    GlobalVariableManager.characters[i] = false;
+                }
+                GlobalVariableManager.characters[3] = true;
                 break;
             case "Heidr":
-                GlobalVariableManager.activeCharacter = GlobalVariableManager.charHeidr;
+                for (int i = 0; i < GlobalVariableManager.characters.Length; i++)
+                {
+                    GlobalVariableManager.characters[i] = false;
+                }
+                GlobalVariableManager.characters[4] = true;
                 break;
             case "Ellen":
-                GlobalVariableManager.activeCharacter = GlobalVariableManager.charEllen;
+                for (int i = 0; i < GlobalVariableManager.characters.Length; i++)
+                {
+                    GlobalVariableManager.characters[i] = false;
+                }
+                GlobalVariableManager.characters[5] = true;
                 break;
             case "Kotone":
-                GlobalVariableManager.activeCharacter = GlobalVariableManager.charKotone;
+                for (int i = 0; i < GlobalVariableManager.characters.Length; i++)
+                {
+                    GlobalVariableManager.characters[i] = false;
+                }
+                GlobalVariableManager.characters[6] = true;
                 break;
             case "Nezuko":
-                GlobalVariableManager.activeCharacter = GlobalVariableManager.charNezuko;
+                for (int i = 0; i < GlobalVariableManager.characters.Length; i++)
+                {
+                    GlobalVariableManager.characters[i] = false;
+                }
+                GlobalVariableManager.characters[7] = true;
                 break;
             case "Shinobu":
-                GlobalVariableManager.activeCharacter = GlobalVariableManager.charShinobu;
+                for (int i = 0; i < GlobalVariableManager.characters.Length; i++)
+                {
+                    GlobalVariableManager.characters[i] = false;
+                }
+                GlobalVariableManager.characters[8] = true;
                 break;
             default:
                 Debug.LogWarning("Character not recognized: " + character);
