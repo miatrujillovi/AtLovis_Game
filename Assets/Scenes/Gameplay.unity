@@ -18327,7 +18327,7 @@ GameObject:
   - component: {fileID: 1247300792}
   - component: {fileID: 1247300791}
   - component: {fileID: 1247300790}
-  - component: {fileID: 1247300789}
+  - component: {fileID: 1247300793}
   m_Layer: 5
   m_Name: AgainBtn
   m_TagString: Untagged
@@ -18355,20 +18355,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.6000595, y: -0.69400024}
   m_SizeDelta: {x: 0, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1247300789
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1247300787}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f83f1cae46c801478835445353b1a3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  manager: {fileID: 959125755}
-  canvas: {fileID: 1909005907}
 --- !u!114 &1247300790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18412,7 +18398,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1247300791}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1247300793}
+        m_TargetAssemblyTypeName: SceneManagement, Assembly-CSharp
+        m_MethodName: JugarTurno
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1247300791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18451,6 +18449,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1247300787}
   m_CullTransparentMesh: 1
+--- !u!114 &1247300793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247300787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41c6033c453f17f42aa23e5874cdc5fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1249445715
 GameObject:
   m_ObjectHideFlags: 0
