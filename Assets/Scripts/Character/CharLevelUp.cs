@@ -17,7 +17,7 @@ public class CharLevelUp : MonoBehaviour
     public Button talentoVelocidad;
     public Sprite activeTalent;
 
-    private bool[] isLeveled = new bool[9];
+    private bool[] isLeveled = new bool[10];
     private bool talentCarismaActive;
     private bool talentVelocidadActive;
     private bool carisma;

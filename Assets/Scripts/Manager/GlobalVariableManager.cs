@@ -26,7 +26,7 @@ public class GlobalVariableManager : MonoBehaviour
 
     //Variables de Personaje
     public static GameObject activeCharacter;
-    public static bool[] characters = new bool[8];
+    public static bool[] characters = new bool[9];
 
     //Variables de Inventario
     public static int clientesAtendidos = 0;
@@ -41,9 +41,6 @@ public class GlobalVariableManager : MonoBehaviour
     {
         activeOrder = false;
         waitingTime = false;
-
-        propinaInventory = 1300;
-        starsInventory = 200;
     }
 
 }

@@ -16,27 +16,36 @@ MonoBehaviour:
   - itemName: Propina
     weight: 80
     sprite: {fileID: -964048597, guid: b9a6cbc36682b0948a471d46eaab45a7, type: 3}
+    IsObtained: 0
   - itemName: Ellen
     weight: 20
     sprite: {fileID: 21300000, guid: 790fbb060076afd41b88a5185a2ddc78, type: 3}
+    IsObtained: 0
   - itemName: Kotone
     weight: 20
     sprite: {fileID: 21300000, guid: 0c2e141ac1e36da458464768ed9c0fcf, type: 3}
+    IsObtained: 0
   - itemName: Nezuko
     weight: 20
     sprite: {fileID: 21300000, guid: c87ead6dbdcead14bb3d4f11af4c406c, type: 3}
+    IsObtained: 0
   - itemName: Shinobu
     weight: 20
     sprite: {fileID: 21300000, guid: d6fdf6bc957f1774c97b7622c405c0ee, type: 3}
+    IsObtained: 0
   - itemName: Aerith
     weight: 10
     sprite: {fileID: 21300000, guid: 94ec4d56e53f13e44aa6879843170258, type: 3}
+    IsObtained: 0
   - itemName: Flandre
     weight: 10
     sprite: {fileID: 21300000, guid: fc58f76f71b18e14a9ad107af6de4825, type: 3}
+    IsObtained: 0
   - itemName: Goldmary
     weight: 10
     sprite: {fileID: 21300000, guid: dffe2870b28e9c24ca626862b023325b, type: 3}
+    IsObtained: 0
   - itemName: Heidr
     weight: 10
     sprite: {fileID: 21300000, guid: 1b9409d773b6f1f4a9316811bf6a23e3, type: 3}
+    IsObtained: 0

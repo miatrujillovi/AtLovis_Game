@@ -12,13 +12,13 @@ public class LootTable : ScriptableObject
         public string itemName;
         public float weight;
         public Sprite sprite;
-        [System.NonSerialized] private bool isObtained;
+        //[System.NonSerialized] private bool isObtained;
 
-        public bool IsObtained
-        {
+        public bool IsObtained;
+        /*{
             get { return isObtained; }
             set { isObtained = value; }
-        }
+        }*/
     }
 
     [SerializeField] public List<RewardItem> _items;

@@ -15,6 +15,7 @@ public class CharacterManager : MonoBehaviour
         RewardItem character = lootTable._items.Find(item => item.itemName == charName[0]);
         if (character != null)
         {
+            Debug.Log(character.IsObtained);
             if (character.IsObtained)
             {
                 Debug.Log(charName[0] + " has been obtained.");
@@ -37,6 +38,7 @@ public class CharacterManager : MonoBehaviour
         RewardItem character = lootTable._items.Find(item => item.itemName == charName[1]);
         if (character != null)
         {
+            Debug.Log(character.IsObtained);
             if (character.IsObtained)
             {
                 Debug.Log(charName[1] + " has been obtained.");
@@ -59,6 +61,7 @@ public class CharacterManager : MonoBehaviour
         RewardItem character = lootTable._items.Find(item => item.itemName == charName[2]);
         if (character != null)
         {
+            Debug.Log(character.IsObtained);
             if (character.IsObtained)
             {
                 Debug.Log(charName[2] + " has been obtained.");
@@ -81,6 +84,7 @@ public class CharacterManager : MonoBehaviour
         RewardItem character = lootTable._items.Find(item => item.itemName == charName[3]);
         if (character != null)
         {
+            Debug.Log(character.IsObtained);
             if (character.IsObtained)
             {
                 Debug.Log(charName[3] + " has been obtained.");
@@ -103,6 +107,7 @@ public class CharacterManager : MonoBehaviour
         RewardItem character = lootTable._items.Find(item => item.itemName == charName[4]);
         if (character != null)
         {
+            Debug.Log(character.IsObtained);
             if (character.IsObtained)
             {
                 Debug.Log(charName[4] + " has been obtained.");
@@ -125,6 +130,7 @@ public class CharacterManager : MonoBehaviour
         RewardItem character = lootTable._items.Find(item => item.itemName == charName[5]);
         if (character != null)
         {
+            Debug.Log(character.IsObtained);
             if (character.IsObtained)
             {
                 Debug.Log(charName[5] + " has been obtained.");
@@ -147,6 +153,7 @@ public class CharacterManager : MonoBehaviour
         RewardItem character = lootTable._items.Find(item => item.itemName == charName[6]);
         if (character != null)
         {
+            Debug.Log(character.IsObtained);
             if (character.IsObtained)
             {
                 Debug.Log(charName[6] + " has been obtained.");
@@ -169,6 +176,7 @@ public class CharacterManager : MonoBehaviour
         RewardItem character = lootTable._items.Find(item => item.itemName == charName[7]);
         if (character != null)
         {
+            Debug.Log(character.IsObtained);
             if (character.IsObtained)
             {
                 Debug.Log(charName[7] + " has been obtained.");

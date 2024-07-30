@@ -45,6 +45,7 @@ public class LootTableDisplay : MonoBehaviour
                         MisionsManager.PrimerPersonaje = true;
                     }
 
+                    Debug.Log(randomItem.IsObtained);
                     itemImage.sprite = randomItem.sprite;
                 }
                 else
