@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 09e351162d09de949aca1e0111c358c9
+  - enabled: 1
     path: Assets/Scenes/Gameplay.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Personajes.unity
+    guid: 1640f1b012b740d428fe0d6e9f35d918
+  - enabled: 1
+    path: Assets/Scenes/Tienda.unity
+    guid: 597a99fca7e6e6343863c8b1a9edc9f2
+  - enabled: 1
+    path: Assets/Scenes/Gachapon.unity
+    guid: 013467e19a1859143aab88cccc5d66ed
   m_configObjects: {}

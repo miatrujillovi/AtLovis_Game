@@ -12110,8 +12110,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 959125755}
   canvas: {fileID: 1909005907}
-  propinaTxt: {fileID: 0}
-  experienciaTxt: {fileID: 0}
+  propinaTxt: {fileID: 1236222839}
+  experienciaTxt: {fileID: 1724579577}
 --- !u!1 &960401270
 GameObject:
   m_ObjectHideFlags: 0
