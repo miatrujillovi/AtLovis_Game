@@ -12122,6 +12122,18 @@ MonoBehaviour:
   - {fileID: 1352907167}
   - {fileID: 447471301}
   - {fileID: 96246567}
+  objectsStore:
+  - {fileID: 1607111814}
+  - {fileID: 1697608754}
+  - {fileID: 845443816}
+  - {fileID: 1144389680}
+  - {fileID: 772319636}
+  - {fileID: 1259490593}
+  - {fileID: 819088825}
+  - {fileID: 2045806431}
+  - {fileID: 1144343997}
+  - {fileID: 868883714}
+  - {fileID: 360178906}
 --- !u!1 &960401270
 GameObject:
   m_ObjectHideFlags: 0

@@ -16,18 +16,7 @@ public class GlobalVariableManager : MonoBehaviour
     public static int movementSpeed;
 
     //Variables de Mejoras de Tienda
-    public static GameObject normalExpansion;
-    public static GameObject expansion1;
-    public static GameObject expansion2;
-    public static GameObject expansion3;
-    public static GameObject decoraciones1;
-    public static GameObject decoraciones2;
-    public static GameObject decoraciones3;
-    public static GameObject activeClientsNormal;
-    public static GameObject activeClientsExpansion1;
-    public static GameObject activeClientsExpansion2;
-    public static GameObject activeClientsExpansion3;
-
+    public static bool[] storeObjects;
     public static int[] earnedPropina;
     public static int[] earnedExperiencia;
     public static int[] extraExpDecoraciones;
@@ -56,7 +45,10 @@ public class GlobalVariableManager : MonoBehaviour
         earnedPropina = new int[] { 5, 10, 15, 20 };
         earnedExperiencia = new int[] { 5, 10, 15, 20 };
         characters = new bool[8];
+        storeObjects = new bool[7];
         characters[0] = true;
+
+        propinaInventory = 200;
     }
 
 }

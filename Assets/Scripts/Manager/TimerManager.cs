@@ -9,46 +9,12 @@ public class TimerManager : MonoBehaviour
     public Text propinaTxt;
     public Text experienciaTxt;
     public GameObject[] character;
+    public GameObject[] objectsStore;
 
     void Start()
     {
-        if (GlobalVariableManager.characters[0] == true)
-        {
-            character[0].SetActive(true);
-        } 
-        else if (GlobalVariableManager.characters[1] == true)
-        {
-            character[1].SetActive(true);
-        }
-        else if (GlobalVariableManager.characters[2] == true)
-        {
-            character[2].SetActive(true);
-        }
-        else if (GlobalVariableManager.characters[3] == true)
-        {
-            character[3].SetActive(true);
-        }
-        else if (GlobalVariableManager.characters[4] == true)
-        {
-            character[4].SetActive(true);
-        }
-        else if (GlobalVariableManager.characters[5] == true)
-        {
-            character[5].SetActive(true);
-        }
-        else if (GlobalVariableManager.characters[6] == true)
-        {
-            character[6].SetActive(true);
-        }
-        else if (GlobalVariableManager.characters[7] == true)
-        {
-            character[7].SetActive(true);
-        }
-        else if (GlobalVariableManager.characters[8] == true)
-        {
-            character[8].SetActive(true);
-        }
-
+        loadChar();
+        loadStoreExpansions();
         StartCoroutine(Countdown());
     }
 
@@ -66,7 +32,7 @@ public class TimerManager : MonoBehaviour
             MisionsManager.Servicio1 = true;
         }
 
-        // manager.SetActive(false);
+        manager.SetActive(false);
         canvas.SetActive(true);
 
         CalcularPropina();
@@ -135,6 +101,83 @@ public class TimerManager : MonoBehaviour
         {
             GlobalVariableManager.experienciaInventory += GlobalVariableManager.earnedExperiencia[3] + GlobalVariableManager.extraExpDecoraciones[3];
             experienciaTxt.text = $"Experiencia Ganada: {GlobalVariableManager.earnedExperiencia[3]}";
+        }
+    }
+
+    private void loadChar()
+    {
+        if (GlobalVariableManager.characters[0] == true)
+        {
+            character[0].SetActive(true);
+        }
+        else if (GlobalVariableManager.characters[1] == true)
+        {
+            character[1].SetActive(true);
+        }
+        else if (GlobalVariableManager.characters[2] == true)
+        {
+            character[2].SetActive(true);
+        }
+        else if (GlobalVariableManager.characters[3] == true)
+        {
+            character[3].SetActive(true);
+        }
+        else if (GlobalVariableManager.characters[4] == true)
+        {
+            character[4].SetActive(true);
+        }
+        else if (GlobalVariableManager.characters[5] == true)
+        {
+            character[5].SetActive(true);
+        }
+        else if (GlobalVariableManager.characters[6] == true)
+        {
+            character[6].SetActive(true);
+        }
+        else if (GlobalVariableManager.characters[7] == true)
+        {
+            character[7].SetActive(true);
+        }
+        else if (GlobalVariableManager.characters[8] == true)
+        {
+            character[8].SetActive(true);
+        }
+    }
+
+    private void loadStoreExpansions()
+    {
+        if (GlobalVariableManager.storeObjects[0] == false && GlobalVariableManager.storeObjects[1] == true)
+        {
+            objectsStore[0].SetActive(false);
+            objectsStore[1].SetActive(true);
+            objectsStore[7].SetActive(false);
+            objectsStore[8].SetActive(true);
+        } 
+        else if (GlobalVariableManager.storeObjects[1] == false && GlobalVariableManager.storeObjects[2] == true)
+        {
+            objectsStore[1].SetActive(false);
+            objectsStore[2].SetActive(true);
+            objectsStore[8].SetActive(false);
+            objectsStore[9].SetActive(true);
+        } 
+        else if (GlobalVariableManager.storeObjects[2] == false && GlobalVariableManager.storeObjects[3] == true)
+        {
+            objectsStore[2].SetActive(false);
+            objectsStore[3].SetActive(true);
+            objectsStore[9].SetActive(false);
+            objectsStore[10].SetActive(true);
+        }
+        if (GlobalVariableManager.storeObjects[4] == true)
+        {
+            objectsStore[4].SetActive(true);
+        }
+        if (GlobalVariableManager.storeObjects[5] == true)
+        {
+            objectsStore[5].SetActive(true);
+        }
+        if (GlobalVariableManager.storeObjects[6] == true)
+        {
+            objectsStore[6].SetActive(true);
         }
     }
 }
