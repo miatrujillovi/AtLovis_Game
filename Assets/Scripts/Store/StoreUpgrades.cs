@@ -29,6 +29,8 @@ public class StoreUpgrades : MonoBehaviour
             GlobalVariableManager.expansion1.SetActive(true);
             GlobalVariableManager.activeClientsNormal.SetActive(false);
             GlobalVariableManager.activeClientsExpansion1.SetActive(true);
+            //Variable de Mision General
+            MisionsManager.Expansion1 = true;
         }
     }
 
@@ -43,6 +45,8 @@ public class StoreUpgrades : MonoBehaviour
             GlobalVariableManager.expansion2.SetActive(true);
             GlobalVariableManager.activeClientsExpansion1.SetActive(false);
             GlobalVariableManager.activeClientsExpansion2.SetActive(true);
+            //Variable de Mision General
+            MisionsManager.Expansion2 = true;
         }
     }
 
@@ -57,6 +61,8 @@ public class StoreUpgrades : MonoBehaviour
             GlobalVariableManager.expansion3.SetActive(true);
             GlobalVariableManager.activeClientsExpansion2.SetActive(false);
             GlobalVariableManager.activeClientsExpansion3.SetActive(true);
+            //Variable de Mision General
+            MisionsManager.Expansion3 = true;
         }
     }
 
@@ -69,6 +75,8 @@ public class StoreUpgrades : MonoBehaviour
             changeText[3].text = "Comprado";
             GlobalVariableManager.decoraciones1.SetActive(true);
             GlobalVariableManager.movementSpeed = 25;
+            //Variable de Mision General
+            MisionsManager.Apariencia1 = true;
         }
     }
 
@@ -81,6 +89,8 @@ public class StoreUpgrades : MonoBehaviour
             changeText[4].text = "Comprado";
             GlobalVariableManager.decoraciones2.SetActive(true);
             GlobalVariableManager.Time = 4;
+            //Variable de Mision General
+            MisionsManager.Apariencia2 = true;
         }
     }
 
@@ -93,6 +103,8 @@ public class StoreUpgrades : MonoBehaviour
             changeText[5].text = "Comprado";
             GlobalVariableManager.decoraciones3.SetActive(true);
             GlobalVariableManager.extraExpDecoraciones = new int[] { 5, 10, 15, 20 };
+            //Variable de Mision General
+            MisionsManager.Apariencia3 = true;
         }
     }
 

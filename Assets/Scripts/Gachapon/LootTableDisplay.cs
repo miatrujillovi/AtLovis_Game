@@ -39,6 +39,12 @@ public class LootTableDisplay : MonoBehaviour
                 Image itemImage = lootItemUI.GetComponentInChildren<Image>();
                 if (itemImage != null)
                 {
+                    //Variable de Mision General
+                    if (MisionsManager.PrimerPersonaje == false)
+                    {
+                        MisionsManager.PrimerPersonaje = true;
+                    }
+
                     itemImage.sprite = randomItem.sprite;
                 }
                 else

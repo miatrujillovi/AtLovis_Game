@@ -9,7 +9,7 @@ public class TimerManager : MonoBehaviour
     public GameObject canvas;
     public Text propinaTxt;
     public Text experienciaTxt;
-    public GameObject character;
+    private GameObject character;
 
     void Start()
     {
@@ -22,6 +22,11 @@ public class TimerManager : MonoBehaviour
         character.SetActive(true);
         yield return new WaitForSeconds(120);
 
+        //Variable de Mision General
+        if (MisionsManager.Servicio1 == false)
+        {
+            MisionsManager.Servicio1 = true;
+        }
         manager.SetActive(false);
         canvas.SetActive(true);
         CalcularPropina();
@@ -48,6 +53,11 @@ public class TimerManager : MonoBehaviour
         } 
         else if (GlobalVariableManager.clientesAtendidos <= 16)
         {
+            //Variable de Mision General
+            if (MisionsManager.OnceClientes == false)
+            {
+                MisionsManager.OnceClientes = true;
+            }
             GlobalVariableManager.propinaInventory += GlobalVariableManager.earnedPropina[3];
             propinaTxt.text = $"Propina Ganada: {GlobalVariableManager.earnedPropina[3]}";
         }

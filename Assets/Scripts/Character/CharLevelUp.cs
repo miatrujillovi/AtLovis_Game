@@ -145,6 +145,11 @@ public class CharLevelUp : MonoBehaviour
             {
                 if (GlobalVariableManager.propinaInventory >= 40)
                 {
+                    //Variable de Mision General
+                    if (MisionsManager.Nivel2 == false)
+                    {
+                        MisionsManager.Nivel2 = true;
+                    }
                     GlobalVariableManager.propinaInventory -= 40;
                     isLeveled[1] = true;
                     levelnumberTxt.text = "2";
@@ -165,6 +170,11 @@ public class CharLevelUp : MonoBehaviour
             {
                 if (GlobalVariableManager.propinaInventory >= 100)
                 {
+                    //Variable de Mision General
+                    if (MisionsManager.Nivel4 == false)
+                    {
+                        MisionsManager.Nivel4 = true;
+                    }
                     GlobalVariableManager.propinaInventory -= 100;
                     isLeveled[3] = true;
                     levelnumberTxt.text = "4";
@@ -185,6 +195,11 @@ public class CharLevelUp : MonoBehaviour
             {
                 if (GlobalVariableManager.propinaInventory >= 140)
                 {
+                    //Variable de Mision General
+                    if (MisionsManager.Nivel6 == false)
+                    {
+                        MisionsManager.Nivel6 = true;
+                    }
                     GlobalVariableManager.propinaInventory -= 140;
                     isLeveled[5] = true;
                     levelnumberTxt.text = "6";
@@ -205,6 +220,11 @@ public class CharLevelUp : MonoBehaviour
             {
                 if (GlobalVariableManager.propinaInventory >= 180)
                 {
+                    //Variable de Mision General
+                    if (MisionsManager.Nivel8 == false)
+                    {
+                        MisionsManager.Nivel8 = true;
+                    }
                     GlobalVariableManager.propinaInventory -= 180;
                     isLeveled[7] = true;
                     levelnumberTxt.text = "8";
@@ -225,6 +245,11 @@ public class CharLevelUp : MonoBehaviour
             {
                 if (GlobalVariableManager.propinaInventory >= 220)
                 {
+                    //Variable de Mision General
+                    if (MisionsManager.Nivel10 == false)
+                    {
+                        MisionsManager.Nivel10 = true;
+                    }
                     GlobalVariableManager.propinaInventory -= 220;
                     isLeveled[9] = true;
                     levelnumberTxt.text = "10";
@@ -262,6 +287,11 @@ public class CharLevelUp : MonoBehaviour
         {
             if (GlobalVariableManager.propinaInventory >= 300)
             {
+                //Variable de Mision General
+                if (MisionsManager.MejoraTalento == false)
+                {
+                    MisionsManager.MejoraTalento = true;
+                }
                 GlobalVariableManager.propinaInventory -= 300;
                 Image CarismaButton = talentoCarisma.GetComponent<Image>();
                 CarismaButton.sprite = activeTalent;
@@ -277,6 +307,11 @@ public class CharLevelUp : MonoBehaviour
         {
             if (GlobalVariableManager.propinaInventory >= 300)
             {
+                //Variable de Mision General
+                if (MisionsManager.MejoraTalento == false)
+                {
+                    MisionsManager.MejoraTalento = true;
+                }
                 GlobalVariableManager.propinaInventory -= 300;
                 Image VelocidadButton = talentoVelocidad.GetComponent<Image>();
                 VelocidadButton.sprite = activeTalent;
