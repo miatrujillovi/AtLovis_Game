@@ -9,24 +9,27 @@ public class GlobalVariableManager : MonoBehaviour
     //Variables de Gameplay
     public static int currentFood;
     public static GameObject table;
-    public static float Time;
+    public static float Time = 7f;
     public static bool activeOrder;
     public static bool waitingTime;
     public static Button[] activeButtons;
-    public static int movementSpeed;
+    public static int movementSpeed = 15;
 
     //Variables de Mejoras de Tienda
-    public static bool[] storeObjects;
-    public static int[] earnedPropina;
-    public static int[] earnedExperiencia;
-    public static int[] extraExpDecoraciones;
+    public static bool[] storeObjects = new bool[7];
+    public static bool expansion1True;
+    public static bool expansion2True;
+    public static bool expansion3True;
+    public static int[] earnedPropina = new int[] { 5, 10, 15, 20 };
+    public static int[] earnedExperiencia = new int[] { 5, 10, 15, 20 };
+    public static int[] extraExpDecoraciones = new int[] { 0, 0, 0, 0 };
 
     //Variables de Personaje
     public static GameObject activeCharacter;
-    public static bool[] characters;
+    public static bool[] characters = new bool[8];
 
     //Variables de Inventario
-    public static int clientesAtendidos;
+    public static int clientesAtendidos = 0;
     public static float propinaInventory;
     public static float experienciaInventory;
     public static float starsInventory;
@@ -36,19 +39,11 @@ public class GlobalVariableManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Time = 7f;
         activeOrder = false;
         waitingTime = false;
-        //activeButtons = GameObject.FindObjectsOfType<Button>();
-        movementSpeed = 15;
-        extraExpDecoraciones = new int[] { 0, 0, 0, 0 };
-        earnedPropina = new int[] { 5, 10, 15, 20 };
-        earnedExperiencia = new int[] { 5, 10, 15, 20 };
-        characters = new bool[8];
-        storeObjects = new bool[7];
-        characters[0] = true;
 
-        propinaInventory = 200;
+        propinaInventory = 1300;
+        starsInventory = 200;
     }
 
 }

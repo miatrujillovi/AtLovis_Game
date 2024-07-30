@@ -146,25 +146,43 @@ public class TimerManager : MonoBehaviour
 
     private void loadStoreExpansions()
     {
-        if (GlobalVariableManager.storeObjects[0] == false && GlobalVariableManager.storeObjects[1] == true)
+        if (GlobalVariableManager.storeObjects[0] == false && GlobalVariableManager.storeObjects[1] == true && GlobalVariableManager.expansion1True == true)
         {
+            //Normal Expansion
             objectsStore[0].SetActive(false);
-            objectsStore[1].SetActive(true);
             objectsStore[7].SetActive(false);
+
+            //New
+            objectsStore[1].SetActive(true);
             objectsStore[8].SetActive(true);
         } 
-        else if (GlobalVariableManager.storeObjects[1] == false && GlobalVariableManager.storeObjects[2] == true)
+        else if (GlobalVariableManager.storeObjects[1] == false && GlobalVariableManager.storeObjects[2] == true && GlobalVariableManager.expansion2True == true)
         {
+            //Normal Expansion
+            objectsStore[0].SetActive(false);
+            objectsStore[7].SetActive(false);
+            //Expansion 1
             objectsStore[1].SetActive(false);
-            objectsStore[2].SetActive(true);
             objectsStore[8].SetActive(false);
+
+            //New
+            objectsStore[2].SetActive(true);
             objectsStore[9].SetActive(true);
         } 
-        else if (GlobalVariableManager.storeObjects[2] == false && GlobalVariableManager.storeObjects[3] == true)
+        else if (GlobalVariableManager.storeObjects[2] == false && GlobalVariableManager.storeObjects[3] == true && GlobalVariableManager.expansion3True == true)
         {
+            //Normal Expansion
+            objectsStore[0].SetActive(false);
+            objectsStore[7].SetActive(false);
+            //Expansion 1
+            objectsStore[1].SetActive(false);
+            objectsStore[8].SetActive(false);
+            //Expansion 2
             objectsStore[2].SetActive(false);
-            objectsStore[3].SetActive(true);
             objectsStore[9].SetActive(false);
+
+            //New
+            objectsStore[3].SetActive(true);
             objectsStore[10].SetActive(true);
         }
         if (GlobalVariableManager.storeObjects[4] == true)

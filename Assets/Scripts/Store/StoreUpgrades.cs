@@ -25,6 +25,7 @@ public class StoreUpgrades : MonoBehaviour
             GlobalVariableManager.propinaInventory -= 200;
             upgrade[0].enabled = false;
             changeText[0].text = "Comprado";
+            GlobalVariableManager.expansion1True = true;
             GlobalVariableManager.storeObjects[0] = false;
             GlobalVariableManager.storeObjects[1] = true;
             //Variable de Mision General
@@ -34,29 +35,39 @@ public class StoreUpgrades : MonoBehaviour
 
     public void Expansion2()
     {
-        if (GlobalVariableManager.propinaInventory >= 200)
+        if (GlobalVariableManager.storeObjects[1] == true)
         {
-            GlobalVariableManager.propinaInventory -= 200;
-            upgrade[1].enabled = false;
-            changeText[1].text = "Comprado";
-            GlobalVariableManager.storeObjects[1] = false;
-            GlobalVariableManager.storeObjects[2] = true;
-            //Variable de Mision General
-            MisionsManager.Expansion2 = true;
+            if (GlobalVariableManager.propinaInventory >= 200)
+            {
+                GlobalVariableManager.propinaInventory -= 200;
+                upgrade[1].enabled = false;
+                changeText[1].text = "Comprado";
+                GlobalVariableManager.expansion1True = false;
+                GlobalVariableManager.expansion2True = true;
+                GlobalVariableManager.storeObjects[1] = false;
+                GlobalVariableManager.storeObjects[2] = true;
+                //Variable de Mision General
+                MisionsManager.Expansion2 = true;
+            }
         }
     }
 
     public void Expansion3()
     {
-        if (GlobalVariableManager.propinaInventory >= 300)
+        if (GlobalVariableManager.storeObjects[2] == true)
         {
-            GlobalVariableManager.propinaInventory -= 300;
-            upgrade[2].enabled = false;
-            changeText[2].text = "Comprado";
-            GlobalVariableManager.storeObjects[2] = false;
-            GlobalVariableManager.storeObjects[3] = true;
-            //Variable de Mision General
-            MisionsManager.Expansion3 = true;
+            if (GlobalVariableManager.propinaInventory >= 300)
+            {
+                GlobalVariableManager.propinaInventory -= 300;
+                upgrade[2].enabled = false;
+                changeText[2].text = "Comprado";
+                GlobalVariableManager.expansion2True = false;
+                GlobalVariableManager.expansion3True = true;
+                GlobalVariableManager.storeObjects[2] = false;
+                GlobalVariableManager.storeObjects[3] = true;
+                //Variable de Mision General
+                MisionsManager.Expansion3 = true;
+            }
         }
     }
 
